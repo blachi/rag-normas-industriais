@@ -1,0 +1,37 @@
+{
+  "nr-10-atualizada-2019-1.pdf": {
+    "norma": "NR-10",
+    "prefixo_item": 10,
+    "titulo": "Segurança em instalações e serviços em eletricidade",
+    "vigencia": "texto de 2019; substituído pela Portaria MTE nº 737/2026 quando entrar em vigor",
+    "fonte": "gov.br/trabalho-e-emprego"
+  },
+  "portaria-mte-no-737-nova-nr-10.pdf": {
+    "norma": "NR-10 (2026)",
+    "prefixo_item": 10,
+    "titulo": "Nova NR-10 — Portaria MTE nº 737, de 29/05/2026",
+    "vigencia": "texto novo aprovado em 29/05/2026; conferir a data de início de vigência na própria portaria",
+    "fonte": "gov.br/trabalho-e-emprego"
+  },
+  "nr-12-atualizada-2022-1.pdf": {
+    "norma": "NR-12",
+    "prefixo_item": 12,
+    "titulo": "Segurança no trabalho em máquinas e equipamentos",
+    "vigencia": "texto atualizado em 2022",
+    "fonte": "gov.br/trabalho-e-emprego"
+  },
+  "nr-33-atualizada-2022-_retificada.pdf": {
+    "norma": "NR-33",
+    "prefixo_item": 33,
+    "titulo": "Segurança e saúde nos trabalhos em espaços confinados",
+    "vigencia": "texto atualizado em 2022 (retificado)",
+    "fonte": "gov.br/trabalho-e-emprego"
+  },
+  "nr-35_manual_consolidado_da_nr_35.pdf": {
+    "norma": "NR-35 (manual)",
+    "prefixo_item": 35,
+    "titulo": "Manual consolidado da NR-35 — Trabalho em altura",
+    "vigencia": "manual de interpretação, não é o texto legal",
+    "fonte": "gov.br/trabalho-e-emprego"
+  }
+}

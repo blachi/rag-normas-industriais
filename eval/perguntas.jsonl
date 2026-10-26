@@ -1,0 +1,25 @@
+{"id": "nr10-01", "pergunta": "A partir de quantos kW de carga a empresa precisa ter o prontuário das instalações elétricas?", "itens": ["10.2.4"]}
+{"id": "nr10-02", "pergunta": "Quem pode assinar os documentos técnicos do prontuário elétrico?", "itens": ["10.2.7"]}
+{"id": "nr10-03", "pergunta": "Posso trabalhar no painel elétrico usando aliança e relógio?", "itens": ["10.2.9.3"]}
+{"id": "nr10-04", "pergunta": "Qual é a primeira medida de proteção coletiva que deve ser adotada?", "itens": ["10.2.8.2"]}
+{"id": "nr10-05", "pergunta": "Acima de qual voltagem o eletricista precisa de treinamento para mexer em circuito ligado?", "itens": ["10.6.1"]}
+{"id": "nr10-06", "pergunta": "O que define um trabalhador qualificado em eletricidade?", "itens": ["10.8.1"]}
+{"id": "nr10-07", "pergunta": "Quem é considerado profissional legalmente habilitado?", "itens": ["10.8.2"]}
+{"id": "nr10-08", "pergunta": "O curso de capacitação que fiz numa empresa vale quando eu mudo de emprego?", "itens": ["10.8.3.1"]}
+{"id": "nr10-09", "pergunta": "De quanto em quanto tempo tem que refazer o treinamento de reciclagem?", "itens": ["10.8.8.2"]}
+{"id": "nr10-10", "pergunta": "Quem trabalha com eletricidade precisa fazer exame médico específico?", "itens": ["10.8.7"]}
+{"id": "nr10-11", "pergunta": "Quais passos são necessários para considerar uma instalação desligada e liberada para trabalho?", "itens": ["10.5.1"]}
+{"id": "nr10-12", "pergunta": "O trabalhador pode se recusar a fazer o serviço se achar que corre risco grave?", "itens": ["10.14.1"]}
+{"id": "nr10-13", "pergunta": "A norma vale para circuitos de extra-baixa tensão?", "itens": ["10.14.6"]}
+{"id": "nr10-14", "pergunta": "Se a empresa terceiriza o serviço elétrico, de quem é a responsabilidade pela segurança?", "itens": ["10.13.1"], "espera_aviso_revogado": true}
+{"id": "nr10-15", "pergunta": "Quais são as obrigações do próprio trabalhador segundo a norma?", "itens": ["10.13.4"]}
+{"id": "nr10-16", "pergunta": "Precisa de ordem de serviço aprovada antes de começar um serviço elétrico?", "itens": ["10.11.2"]}
+{"id": "nr10-17", "pergunta": "Numa equipe de eletricistas, alguém precisa ser o responsável por supervisionar?", "itens": ["10.11.6"]}
+{"id": "nr10-18", "pergunta": "Como deve ser autorizado o serviço elétrico em área com risco de explosão?", "itens": ["10.9.5"]}
+{"id": "nr10-19", "pergunta": "Os eletricistas precisam saber fazer resgate e primeiros socorros?", "itens": ["10.12.2"]}
+{"id": "nr10-20", "pergunta": "A empresa é obrigada a ter o diagrama unifilar atualizado?", "itens": ["10.2.3"]}
+{"id": "nr10-21", "pergunta": "Que tipo de roupa o eletricista deve usar?", "itens": ["10.2.9.2"]}
+{"id": "nr10-22", "pergunta": "O projeto elétrico tem que prever aterramento temporário?", "itens": ["10.3.6"]}
+{"id": "nr10-23", "pergunta": "O que a norma chama de alta tensão?", "itens": ["Glossário: Alta Tensão"]}
+{"id": "nr10-24", "pergunta": "Um eletricista pode trabalhar sozinho em linha energizada de alta tensão?", "itens": ["10.7.3"]}
+{"id": "nr10-25", "pergunta": "O que fazer com o serviço em rede energizada quando vem uma tempestade?", "itens": ["10.6.3"]}

@@ -1,0 +1,9 @@
+torch==2.5.1
+sentence-transformers==3.3.1
+chromadb==0.5.23
+fastapi==0.115.6
+uvicorn==0.34.0
+pypdf==5.1.0
+pytest==8.3.4
+# opcional: geracao da resposta com Claude
+# anthropic
