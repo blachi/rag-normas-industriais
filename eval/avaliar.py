@@ -17,13 +17,17 @@ import time
 from pathlib import Path
 
 from rag import busca
+from rag.responder import busca_vigente
 
 AQUI = Path(__file__).resolve().parent
 K = 5
 
 
-def _posicao(resultados, itens_certos) -> int | None:
+def _posicao(resultados, itens_certos, norma="NR-10") -> int | None:
+    # o gabarito aponta o texto VIGENTE: o mesmo numero de item na redacao que ainda nao vale nao conta
     for i, (t, _) in enumerate(resultados, start=1):
+        if t["norma"] != norma:
+            continue
         # gabarito "Glossário: Alta Tensão" casa com o rotulo do trecho da definicao
         if t["item"] in itens_certos or any(t["item"].startswith(c) for c in itens_certos if c.startswith("Glossário")):
             return i
@@ -38,6 +42,7 @@ def avalia() -> dict:
         "bm25": lambda q: bm25.busca(q, K),
         "semantica": lambda q: busca.semantica(q, K),
         "hibrida": lambda q: busca.hibrida(q, bm25, K),
+        "semantica+vigencia": lambda q: busca_vigente(q, K),
     }
     saida = {"n_perguntas": len(perguntas), "k": K, "metodos": {}, "detalhe": []}
     por_pergunta = {p["id"]: {"pergunta": p["pergunta"], "certo": p["itens"]} for p in perguntas}
@@ -49,11 +54,14 @@ def avalia() -> dict:
         aviso_ok = aviso_total = 0
         for p in perguntas:
             res = f(p["pergunta"])
-            pos = _posicao(res, set(p["itens"]))
+            pos = _posicao(res, set(p["itens"]), p.get("norma", "NR-10"))
             a1 += pos == 1
             a5 += pos is not None
             rr += 1 / pos if pos else 0.0
-            por_pergunta[p["id"]][nome] = {"posicao": pos, "top3": [t["item"] for t, _ in res[:3]]}
+            por_pergunta[p["id"]][nome] = {
+                "posicao": pos,
+                "top3": [t["item"] + ("*" if t["norma"] != p.get("norma", "NR-10") else "") for t, _ in res[:3]],
+            }
             if p.get("espera_aviso_revogado"):
                 aviso_total += 1
                 if pos and bool(res[pos - 1][0].get("revogado")):
@@ -80,6 +88,7 @@ def relatorio_md(r: dict) -> str:
     for nome, m in r["metodos"].items():
         linhas.append(f"| {nome} | {m['acerto@1']:.0%} | {m['acerto@5']:.0%} | {m['MRR']:.3f} | {m['ms_por_pergunta']} | {m['aviso_revogado']} |")
     linhas += ["", "## Onde cada um errou (item certo fora do 1º lugar)", "",
+               "`*` = trecho da NOVA NR-10 (Portaria 737/2026), que só vale a partir de 01/06/2027.", "",
                "| Pergunta | Certo | bm25 | semântica | híbrida |", "|---|---|---|---|---|"]
     for d in r["detalhe"]:
         if all(d[m]["posicao"] == 1 for m in r["metodos"]):

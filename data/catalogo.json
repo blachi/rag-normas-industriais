@@ -3,14 +3,16 @@
     "norma": "NR-10",
     "prefixo_item": 10,
     "titulo": "Segurança em instalações e serviços em eletricidade",
-    "vigencia": "texto de 2019; substituído pela Portaria MTE nº 737/2026 quando entrar em vigor",
+    "vigencia": "texto VIGENTE até 31/05/2027; a partir de 01/06/2027 vale a nova redação (Portaria MTE nº 737/2026)",
+    "vigente_ate": "2027-05-31",
     "fonte": "gov.br/trabalho-e-emprego"
   },
   "portaria-mte-no-737-nova-nr-10.pdf": {
     "norma": "NR-10 (2026)",
     "prefixo_item": 10,
-    "titulo": "Nova NR-10 — Portaria MTE nº 737, de 29/05/2026",
-    "vigencia": "texto novo aprovado em 29/05/2026; conferir a data de início de vigência na própria portaria",
+    "titulo": "Nova NR-10 — Portaria MTE nº 737, de 29/05/2026 (DOU 01/06/2026)",
+    "vigencia": "nova redação publicada em 01/06/2026; ENTRA EM VIGOR em 01/06/2027 (1 ano após a publicação, art. da própria portaria)",
+    "vigente_desde": "2027-06-01",
     "fonte": "gov.br/trabalho-e-emprego"
   },
   "nr-12-atualizada-2022-1.pdf": {

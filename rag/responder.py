@@ -10,8 +10,11 @@ usando SO os trechos recuperados; sem a chave, a resposta e extrativa (os trecho
 """
 from __future__ import annotations
 
+import datetime as dt
+import json
 import os
 from dataclasses import dataclass, field
+from functools import lru_cache
 
 from rag import busca
 
@@ -31,18 +34,31 @@ class Resposta:
     avisos: list[str] = field(default_factory=list)
 
 
-def _avisos(fontes: list[dict]) -> list[str]:
+@lru_cache(maxsize=1)
+def _catalogo() -> dict:
+    return json.loads((busca.RAIZ / "data" / "catalogo.json").read_text(encoding="utf-8"))
+
+
+def _br(iso: str) -> str:
+    return dt.date.fromisoformat(iso).strftime("%d/%m/%Y")
+
+
+def _avisos(fontes: list[dict], hoje: dt.date | None = None) -> list[str]:
+    """Avisos que dependem da DATA: o mesmo trecho e vigente hoje e deixa de ser amanha."""
+    hoje = hoje or dt.date.today()
     av = []
     for f in fontes:
         if f.get("revogado"):
             av.append(f"{f['norma']} item {f['item']} está REVOGADO — não use como obrigação vigente.")
-    normas = {f["norma"] for f in fontes}
-    for f in fontes:
-        if "substituído" in f.get("vigencia", "") or "texto novo" in f.get("vigencia", ""):
-            av.append(f"{f['norma']}: {f['vigencia']}.")
-            break
-    if any(n.startswith("NR-10") for n in normas):
-        av.append("A NR-10 tem texto novo (Portaria MTE nº 737/2026): confira a vigência antes de aplicar.")
+        meta = _catalogo().get(f.get("documento", ""), {})
+        desde, ate = meta.get("vigente_desde"), meta.get("vigente_ate")
+        if desde and hoje < dt.date.fromisoformat(desde):
+            av.append(f"{f['norma']} item {f['item']} é da NOVA redação, que só vale a partir de {_br(desde)}. "
+                      f"Até lá, vale o texto anterior.")
+        if ate and hoje <= dt.date.fromisoformat(ate):
+            av.append(f"{f['norma']}: texto vigente até {_br(ate)}; a redação muda depois dessa data.")
+        if ate and hoje > dt.date.fromisoformat(ate):
+            av.append(f"{f['norma']} item {f['item']}: este texto deixou de valer em {_br(ate)}.")
     return list(dict.fromkeys(av))
 
 
@@ -64,8 +80,25 @@ def _gera_com_claude(pergunta: str, fontes: list[dict]) -> str:
     return "".join(b.text for b in msg.content if b.type == "text")
 
 
+def _vale_hoje(t: dict, hoje: dt.date) -> bool:
+    desde = _catalogo().get(t.get("documento", ""), {}).get("vigente_desde")
+    return not desde or hoje >= dt.date.fromisoformat(desde)
+
+
+def busca_vigente(pergunta: str, k: int = K, hoje: dt.date | None = None) -> list[tuple[dict, float]]:
+    """Semantica + vigencia: busca 3k e poe na frente o texto que VALE na data.
+
+    Sem isso, com a NR-10 nova (vale so em 01/06/2027) no indice, o texto que ainda nao
+    vale vinha em 1o lugar em 10 de 25 perguntas. A redacao futura continua na lista,
+    depois, com aviso: quem planeja a adequacao precisa ve-la.
+    """
+    hoje = hoje or dt.date.today()
+    achados = busca.semantica(pergunta, k * 3)
+    return sorted(achados, key=lambda ts: not _vale_hoje(ts[0], hoje))[:k]   # sort estavel
+
+
 def responde(pergunta: str, k: int = K, limiar: float = LIMIAR) -> Resposta:
-    achados = busca.semantica(pergunta, k)
+    achados = busca_vigente(pergunta, k)
     fontes = [{**t, "similaridade": round(s, 3)} for t, s in achados if s >= limiar]
     if not fontes:
         melhor = round(achados[0][1], 3) if achados else None

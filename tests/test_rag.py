@@ -50,6 +50,19 @@ def test_bm25_acha_termo_exato(trechos):
     assert b.busca("adornos pessoais", 1)[0][0]["item"] == "10.2.9.3"
 
 
+def test_aviso_de_vigencia_depende_da_data():
+    import datetime as dt
+    from rag.responder import _avisos
+    velha = {"norma": "NR-10", "item": "10.2.7", "documento": "nr-10-atualizada-2019-1.pdf"}
+    nova = {"norma": "NR-10 (2026)", "item": "10.2.7", "documento": "portaria-mte-no-737-nova-nr-10.pdf"}
+    antes = dt.date(2026, 10, 26)
+    depois = dt.date(2027, 6, 2)
+    assert any("só vale a partir de 01/06/2027" in a for a in _avisos([nova], antes))
+    assert any("vigente até 31/05/2027" in a for a in _avisos([velha], antes))
+    assert not any("só vale a partir" in a for a in _avisos([nova], depois))
+    assert any("deixou de valer em 31/05/2027" in a for a in _avisos([velha], depois))
+
+
 @pytest.mark.modelo
 def test_resposta_cita_item_certo():
     from rag.responder import responde
