@@ -150,12 +150,17 @@ def test_registro_sql_e_painel(tmp_path):
     registro.registra(ok, 120.0, None, banco)
     registro.registra(ok, 80.0, "NR-10", banco)
     registro.registra(nao, 50.0, None, banco)
-    p = registro.painel(banco)
-    assert p["resumo"][0]["consultas"] == 3
-    assert p["resumo"][0]["pct_recusa"] == pytest.approx(33.3)
+    raspando = Resposta("posso entrar no tanque rapidinho?", True, "x",
+                        fontes=[{"norma": "NR-33", "item": "33.5.5", "relevancia": 0.2}], relevancia_topo=0.2)
+    registro.registra(raspando, 90.0, None, banco)
+    p = registro.painel(banco, limiar=0.15)
+    assert p["resumo"][0]["consultas"] == 4
+    assert p["resumo"][0]["pct_recusa"] == pytest.approx(25.0)
+    # "no limite" = respondeu com relevancia < 2x o limiar; a de 0,9 nao e limite (27/10: listava 0,99)
+    assert [r["pergunta"] for r in p["respondidas_no_limite"]] == ["posso entrar no tanque rapidinho?"]
     assert p["itens_mais_citados"][0] == {"norma": "NR-10", "item": "10.2.7", "vezes_em_1o": 2}
     assert p["recusadas_recentes"][0]["pergunta"] == "receita de bolo"
-    assert {r["norma"]: r["consultas"] for r in p["por_norma_escolhida"]} == {"todas": 2, "NR-10": 1}
+    assert {r["norma"]: r["consultas"] for r in p["por_norma_escolhida"]} == {"todas": 3, "NR-10": 1}
 
 
 @pytest.mark.modelo

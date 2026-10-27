@@ -77,14 +77,16 @@ button{padding:12px 18px;border:0;border-radius:10px;background:var(--ac);color:
 <form id="f"><select id="n" aria-label="Norma"><option value="">Todas as normas</option></select><input id="q" placeholder="Ex.: posso usar aliança mexendo no painel?" autocomplete="off"><button>Perguntar</button></form>
 <div class="ex" id="ex"></div><div id="out"></div>
 <script>
-const EX=["Posso trabalhar no painel usando aliança e relógio?","De quanto em quanto tempo refaço a reciclagem?","Eletricista pode trabalhar sozinho em alta tensão?","Quem pode assinar o prontuário elétrico?","Qual a receita de bolo de cenoura?"];
+const EX=["Posso trabalhar no painel usando aliança e relógio?","De quanto em quanto tempo refaço a reciclagem?","Eletricista pode trabalhar sozinho em alta tensão?","Quem pode assinar os documentos técnicos do prontuário elétrico?","Qual a receita de bolo de cenoura?"];
 const ex=document.getElementById('ex');EX.forEach(t=>{const s=document.createElement('span');s.textContent=t;s.onclick=()=>{q.value=t;go()};ex.appendChild(s)});
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 fetch('/normas').then(r=>r.json()).then(L=>L.forEach(x=>{const o=document.createElement('option');o.value=o.textContent=x;n.appendChild(o)}));
-async function go(){const v=q.value.trim();if(!v)return;out.innerHTML='<p class="mut">Buscando…</p>';
+let seq=0;  // a resposta de uma pergunta antiga, chegando depois, nao pode cobrir a da nova
+async function go(){const v=q.value.trim();if(!v)return;const eu=++seq;out.innerHTML='<p class="mut">Buscando… (15 a 30 s)</p>';
 let r;try{const u='/perguntar?q='+encodeURIComponent(v)+(n.value?'&norma='+encodeURIComponent(n.value):'');
-const resp=await fetch(u);if(!resp.ok)throw new Error('HTTP '+resp.status);r=await resp.json()}
-catch(e){out.innerHTML='<div class="card nao">Falhou ao consultar o servidor ('+esc(e.message)+').</div>';return}
+const resp=await fetch(u);if(!resp.ok)throw new Error('HTTP '+resp.status+(resp.status===503?' — pouca memória livre':''));r=await resp.json()}
+catch(e){if(eu===seq)out.innerHTML='<div class="card nao">Falhou ao consultar o servidor ('+esc(e.message)+').</div>';return}
+if(eu!==seq)return;
 if(!r.encontrou){out.innerHTML='<div class="card nao">'+esc(r.texto)+'</div>';return}
 let h=r.avisos.map(a=>'<div class="aviso">⚠ '+esc(a)+'</div>').join('');
 h+=r.fontes.map((f,i)=>'<div class="card"><div class="cit">'+(i?'':'Resposta · ')+esc(f.norma)+' — item '+esc(f.item)+' · p. '+f.pagina+'<span class="sim">relevância '+f.relevancia.toFixed(2)+'</span></div>'+esc(f.texto)+'</div>').join('');

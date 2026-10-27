@@ -55,8 +55,9 @@ PAINEL = {
         ORDER BY id DESC LIMIT 10""",
     "respondidas_no_limite": """
         -- respondeu, mas perto do limiar: candidatas a entrar no gabarito
+        -- (sem o filtro de faixa, listava qualquer resposta, inclusive as de relevancia 0,99)
         SELECT quando, pergunta, ROUND(relevancia, 3) AS relevancia
-        FROM consulta WHERE encontrou = 1
+        FROM consulta WHERE encontrou = 1 AND relevancia < :teto
         ORDER BY relevancia ASC LIMIT 10""",
     "por_norma_escolhida": """
         SELECT COALESCE(norma_escolhida, 'todas') AS norma, COUNT(*) AS consultas,
@@ -90,7 +91,13 @@ def registra(resposta, ms: float, norma_escolhida: str | None = None, banco: Pat
         return cid
 
 
-def painel(banco: Path = BANCO) -> dict:
+FAIXA_LIMITE = 2.0   # "perto do limiar" = relevancia abaixo de 2x o limiar de recusa
+
+
+def painel(banco: Path = BANCO, limiar: float | None = None) -> dict:
+    if limiar is None:
+        from rag.responder import LIMIAR as limiar
+    params = {"teto": FAIXA_LIMITE * limiar}
     with closing(_conecta(banco)) as con:
         con.row_factory = sqlite3.Row
-        return {nome: [dict(r) for r in con.execute(sql)] for nome, sql in PAINEL.items()}
+        return {nome: [dict(r) for r in con.execute(sql, params)] for nome, sql in PAINEL.items()}
