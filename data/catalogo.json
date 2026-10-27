@@ -32,8 +32,9 @@
   "nr-35_manual_consolidado_da_nr_35.pdf": {
     "norma": "NR-35 (manual)",
     "prefixo_item": 35,
-    "titulo": "Manual consolidado da NR-35 — Trabalho em altura",
-    "vigencia": "manual de interpretação, não é o texto legal",
+    "titulo": "Manual de auxílio na interpretação e aplicação da NR-35 (NR-35 comentada), 2ª edição, abril de 2018",
+    "tipo": "manual",
+    "vigencia": "é o MANUAL de interpretação de abril de 2018, não o texto legal; a NR-35 foi alterada depois — confira a redação vigente antes de aplicar",
     "fonte": "gov.br/trabalho-e-emprego"
   }
 }

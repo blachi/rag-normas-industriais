@@ -23,10 +23,21 @@ TRECHOS = RAIZ / "data" / "trechos.jsonl"
 # GLOSSARIO e ANEXO tambem abrem bloco proprio: sem isso o glossario inteiro vira parte do
 # ultimo item da norma e "o que e alta tensao?" cita o item errado.
 ITEM = re.compile(
-    r"^\s*(?:(\d{1,2}(?:\.\d{1,3}){1,5})\.?\s*[-–]?\s+(?=\S)|(GLOSS[ÁA]RIO|ANEXO\s+[IVX]+)\b)",
+    r"^\s*(?:(\d{1,2}(?:\.\d{1,3}){1,5})\.?\s*[-–]?\s+(?=\S)"
+    r"|(GLOSS[ÁA]RIO|ANEXO\s+[IVX]+|REFER[ÊE]NCIAS(?:\s+BIBLIOGR[ÁA]FICAS)?|BIBLIOGRAFIA)\b)",
     re.M,
 )
+# inicio de definicao em glossario, numerado ("1. Alta Tensao (AT): ") ou nao ("Barreira: ").
+# Cada NR formata o glossario de um jeito; o separador nao pode depender de um formato so.
+TERMO = re.compile(r"(?:^|(?<=[.;]))\s*(?:\d{1,3}[.)]\s*)?([A-ZÀ-Ú][^.:;()]{1,80}(?:\([^)]{1,15}\))?)\s*:\s")
+NAO_E_TERMO = {"Observação", "Obs", "Nota", "Fonte", "Exemplo", "Exemplos",
+               "Acesso em", "Disponível em"}   # os dois ultimos sao de referencia bibliografica
 REVOGADO = re.compile(r"\(\s*revogad[oa]", re.I)
+VERBO_NORMATIVO = re.compile(
+    r"\b(deve|devem|deverá|deverão|é|são|será|serão|pode|podem|poderá|compete|cabe|cabem|"
+    r"vedad[oa]s?|proibid[oa]s?|obrigatóri[oa]s?|aplica|aplicam|considera|consideram|estabelece|fica|ficam)\b",
+    re.I,
+)
 MAX_CHARS = 1500
 TITULO_MAX = 90   # item curto e todo em maiusculas = titulo de secao (ex.: "10.5 SEGURANCA EM ...")
 
@@ -49,12 +60,43 @@ def _limpa(t: str) -> str:
     t = re.sub(r"-\n(?=[a-zà-ú])", "", t)          # hifenizacao no fim da linha
     t = re.sub(r"[ \t]+", " ", t)
     t = re.sub(r"\n\s*\d{1,3}\s*\n", "\n", t)      # numero de pagina solto
+    t = re.sub(r"^.*\.{5,}.*$", "", t, flags=re.M)  # linha de sumario ("OBJETIVO ....... 3")
     return t
+
+
+def _definicoes(corpo: str) -> list[tuple[str, str]]:
+    """Separa um glossario em (termo, definicao). Sem termo reconhecido, devolve o bloco inteiro."""
+    inicios = [m for m in TERMO.finditer(corpo) if m.group(1).strip() not in NAO_E_TERMO]
+    if len(inicios) < 2:
+        return [("", corpo)]
+    saida = []
+    if inicios[0].start() > 0 and corpo[:inicios[0].start()].strip():
+        saida.append(("", corpo[:inicios[0].start()].strip()))
+    for a, b in zip(inicios, inicios[1:] + [None]):
+        saida.append((a.group(1).strip(), corpo[a.start():b.start() if b else len(corpo)].strip()))
+    return saida
 
 
 def _paginas(pdf: Path) -> list[tuple[int, str]]:
     r = PdfReader(str(pdf))
-    return [(i + 1, _limpa(p.extract_text() or "")) for i, p in enumerate(r.pages)]
+    paginas = [(i + 1, _limpa(p.extract_text() or "")) for i, p in enumerate(r.pages)]
+    return _sem_cabecalho_rodape(paginas)
+
+
+def _sem_cabecalho_rodape(paginas: list[tuple[int, str]], fracao: float = 0.3) -> list[tuple[int, str]]:
+    """Remove linhas que se repetem em muitas paginas (cabecalho/rodape).
+
+    A NR-33 traz em toda pagina "Entra em vigor no dia 03 de outubro de 2022 ... Este texto nao
+    substitui o publicado no DOU"; o rodape caia no meio dos itens da PET e do vigia e os
+    embeddings desses itens passavam a falar de vigencia. Vale para qualquer PDF.
+    """
+    if len(paginas) < 4:
+        return paginas
+    from collections import Counter
+    norm = lambda s: " ".join(s.split())
+    conta = Counter(l for _, t in paginas for l in {norm(x) for x in t.splitlines()} if len(norm(l)) >= 15)
+    repetidas = {l for l, c in conta.items() if c >= max(3, fracao * len(paginas))}
+    return [(n, "\n".join(x for x in t.splitlines() if norm(x) not in repetidas)) for n, t in paginas]
 
 
 def _quebra(texto: str) -> list[str]:
@@ -94,19 +136,27 @@ def corta(documento: str, meta: dict) -> list[Trecho]:
             corpo = " ".join(" ".join(buf).split())
             if not corpo:
                 return
-            if len(corpo) <= TITULO_MAX and corpo.upper() == corpo:
-                secao = f"{item} {corpo}".strip()     # titulo: vira contexto dos itens seguintes
+            # titulo de secao: vira contexto dos itens seguintes, nao trecho proprio.
+            # NR-10 escreve "10.5 SEGURANCA EM ..." (maiusculas); NR-12/33 escrevem
+            # "12.1 Princípios gerais" / "33.5.13 Sinalização de segurança". So o 1o formato era
+            # reconhecido, e os titulos da NR-12/33 viravam ~50 trechos-lixo no indice.
+            # Curto e SEM verbo de obrigacao = titulo; "As PETs emitidas devem ser rastreáveis." fica.
+            curto_sem_verbo = len(corpo) <= 60 and not VERBO_NORMATIVO.search(corpo)
+            if item[0].isdigit() and len(corpo) <= TITULO_MAX and (corpo.upper() == corpo or curto_sem_verbo):
+                secao = f"{item} {corpo}".strip()
                 return
             if item == "Glossário":
-                # uma definicao por trecho ("1. Alta Tensão (AT): ..."): cada termo e
-                # enderecavel sozinho, como um item da norma
-                pedacos = [(f"Glossário: {m.group(1).strip()}", m.group(0).strip())
-                           for m in re.finditer(r"\d{1,2}\.\s*([^:]{2,80}):.*?(?=\s\d{1,2}\.\s*[A-ZÀ-Ú][^:]{1,80}:|$)", corpo)]
+                # uma definicao por trecho: cada termo e enderecavel sozinho, como um item
+                rotulados = [(f"Glossário: {termo}" if termo else "Glossário", d) for termo, d in _definicoes(corpo)]
             else:
-                pedacos = [(item, parte) for parte in _quebra(corpo)]
-            for k, (rotulo, parte) in enumerate(pedacos):
+                rotulados = [(item, corpo)]
+            # NENHUM trecho escapa do limite de tamanho, qualquer que seja o rotulo
+            pedacos = [(rotulo, parte) for rotulo, txt in rotulados for parte in _quebra(txt)]
+            for rotulo, parte in pedacos:
                 trechos.append(Trecho(
-                    id=f"{meta['norma']}|{rotulo}|{k}",
+                    # sequencial no DOCUMENTO: o mesmo numero de item reaparece (texto e anexo,
+                    # texto e comentario do manual); um contador por item gerava IDs repetidos
+                    id=f"{meta['norma']}|{rotulo}|{len(trechos)}",
                     documento=documento,
                     norma=meta["norma"],
                     item=rotulo,
@@ -124,9 +174,14 @@ def corta(documento: str, meta: dict) -> list[Trecho]:
                 numero = m.group(1)
                 if numero.split(".")[0] != prefixo:
                     continue
-            else:   # "GLOSSÁRIO" -> "Glossário"; "ANEXO II" -> "Anexo II"
-                bruto = " ".join(m.group(2).split())
-                numero = "Glossário" if bruto.upper().startswith("GLOSS") else "Anexo " + bruto.split()[1]
+            else:   # "GLOSSÁRIO" -> "Glossário"; "ANEXO II" -> "Anexo II"; "REFERÊNCIAS" -> "Referências"
+                bruto = " ".join(m.group(2).split()).upper()
+                if bruto.startswith("GLOSS"):
+                    numero = "Glossário"
+                elif bruto.startswith("ANEXO"):
+                    numero = "Anexo " + bruto.split()[1]
+                else:
+                    numero = "Referências"
             buf.append(texto[pos:m.start()])
             fecha()                       # fecha o item ANTERIOR com a secao dele
             if m.group(2):

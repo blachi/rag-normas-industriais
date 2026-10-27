@@ -23,6 +23,10 @@ TRECHOS = RAIZ / "data" / "trechos.jsonl"
 CHROMA = RAIZ / "data" / "chroma"
 MODELO = "intfloat/multilingual-e5-small"
 COLECAO = "normas"
+# O padrao do ChromaDB e search_ef=10: com ele o 1o resultado divergia da busca EXATA em
+# 6 de 40 perguntas e o top-5 em 14 de 40 (auditoria de 26/10) — e os numeros da avaliacao
+# mudavam de uma rodada para outra. Com ~1.300 trechos nao ha razao para aproximar.
+HNSW = {"hnsw:space": "cosine", "hnsw:search_ef": 256, "hnsw:construction_ef": 256, "hnsw:M": 32}
 
 STOP = set("""a o as os de da do das dos e em no na nos nas um uma para por com sem que se
 ao aos ou ser deve devem sua seu suas seus como mais quando onde qual quais sao é á à
@@ -75,7 +79,7 @@ def _colecao():
     import chromadb
     from chromadb.config import Settings
     cli = chromadb.PersistentClient(path=str(CHROMA), settings=Settings(anonymized_telemetry=False))
-    return cli.get_or_create_collection(COLECAO, metadata={"hnsw:space": "cosine"})
+    return cli.get_or_create_collection(COLECAO, metadata=HNSW)
 
 
 def indexa(trechos: list[dict]) -> int:
@@ -83,11 +87,14 @@ def indexa(trechos: list[dict]) -> int:
     import chromadb
     from chromadb.config import Settings
     cli = chromadb.PersistentClient(path=str(CHROMA), settings=Settings(anonymized_telemetry=False))
+    ids = [t["id"] for t in trechos]
+    if len(ids) != len(set(ids)):   # falha ANTES de apagar o indice que funciona
+        raise ValueError(f"{len(ids) - len(set(ids))} IDs repetidos; o indice atual foi mantido")
     try:
         cli.delete_collection(COLECAO)
     except Exception:
         pass
-    col = cli.get_or_create_collection(COLECAO, metadata={"hnsw:space": "cosine"})
+    col = cli.get_or_create_collection(COLECAO, metadata=HNSW)
     textos = [f"passage: {t['norma']} item {t['item']} ({t['secao']}). {t['texto']}" for t in trechos]
     vetores = _modelo().encode(textos, batch_size=32, normalize_embeddings=True, show_progress_bar=False)
     col.add(
@@ -99,10 +106,17 @@ def indexa(trechos: list[dict]) -> int:
     return col.count()
 
 
-def semantica(pergunta: str, k: int = 5) -> list[tuple[dict, float]]:
+def familia(norma: str) -> str:
+    """'NR-10 (2026)' e 'NR-10' sao a mesma norma em redacoes diferentes; 'NR-35 (manual)' -> 'NR-35'."""
+    return norma.split()[0]
+
+
+def semantica(pergunta: str, k: int = 5, normas: list[str] | None = None) -> list[tuple[dict, float]]:
+    """normas: restringe a busca (ex.: ['NR-10', 'NR-10 (2026)']); None = todas."""
     col = _colecao()
     v = _modelo().encode([f"query: {pergunta}"], normalize_embeddings=True)[0].tolist()
-    r = col.query(query_embeddings=[v], n_results=k)
+    filtro = {"norma": {"$in": normas}} if normas else None
+    r = col.query(query_embeddings=[v], n_results=k, where=filtro)
     saida = []
     for id_, doc, meta, dist in zip(r["ids"][0], r["documents"][0], r["metadatas"][0], r["distances"][0]):
         saida.append(({"id": id_, "texto": doc, **meta}, 1 - dist))

@@ -1,34 +1,55 @@
 {
-  "n_perguntas": 25,
+  "n_perguntas": 40,
   "k": 5,
   "metodos": {
     "bm25": {
-      "acerto@1": 0.24,
-      "acerto@5": 0.48,
-      "MRR": 0.327,
-      "ms_por_pergunta": 0.5,
-      "aviso_revogado": "0/1"
+      "acerto@1": 0.15,
+      "acerto@5": 0.475,
+      "MRR": 0.26,
+      "ms_por_pergunta": 1.9,
+      "aviso_revogado": "0/2"
     },
     "semantica": {
-      "acerto@1": 0.52,
-      "acerto@5": 0.88,
-      "MRR": 0.665,
-      "ms_por_pergunta": 570.7,
-      "aviso_revogado": "0/1"
+      "acerto@1": 0.4,
+      "acerto@5": 0.75,
+      "MRR": 0.541,
+      "ms_por_pergunta": 343.9,
+      "aviso_revogado": "1/2"
     },
     "hibrida": {
-      "acerto@1": 0.36,
-      "acerto@5": 0.68,
-      "MRR": 0.491,
-      "ms_por_pergunta": 48.9,
-      "aviso_revogado": "0/1"
+      "acerto@1": 0.275,
+      "acerto@5": 0.675,
+      "MRR": 0.42,
+      "ms_por_pergunta": 42.4,
+      "aviso_revogado": "1/2"
     },
     "semantica+vigencia": {
-      "acerto@1": 0.76,
-      "acerto@5": 0.92,
-      "MRR": 0.82,
-      "ms_por_pergunta": 42.9,
-      "aviso_revogado": "0/1"
+      "acerto@1": 0.525,
+      "acerto@5": 0.775,
+      "MRR": 0.617,
+      "ms_por_pergunta": 40.4,
+      "aviso_revogado": "0/2"
+    },
+    "com norma escolhida": {
+      "acerto@1": 0.55,
+      "acerto@5": 0.775,
+      "MRR": 0.642,
+      "ms_por_pergunta": 57.4,
+      "aviso_revogado": "0/2"
+    },
+    "reranqueada": {
+      "acerto@1": 0.7,
+      "acerto@5": 0.825,
+      "MRR": 0.751,
+      "ms_por_pergunta": 16710.0,
+      "aviso_revogado": "1/2"
+    },
+    "reranqueada + norma escolhida": {
+      "acerto@1": 0.7,
+      "acerto@5": 0.85,
+      "MRR": 0.76,
+      "ms_por_pergunta": 15889.4,
+      "aviso_revogado": "1/2"
     }
   },
   "detalhe": [
@@ -38,12 +59,13 @@
       "certo": [
         "10.2.4"
       ],
+      "norma": "NR-10",
       "bm25": {
-        "posicao": 4,
+        "posicao": 3,
         "top3": [
-          "10.8.6",
           "10.2.6",
-          "10.7.1*"
+          "10.8.6",
+          "10.2.4"
         ]
       },
       "semantica": {
@@ -69,6 +91,30 @@
           "10.2.5.1",
           "10.2.5"
         ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.2.4",
+          "10.2.5.1",
+          "10.2.5"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.2.4",
+          "10.2.5",
+          "10.2.6"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.2.4",
+          "10.2.5",
+          "10.2.6"
+        ]
       }
     },
     {
@@ -77,11 +123,12 @@
       "certo": [
         "10.2.7"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": 1,
         "top3": [
           "10.2.7",
-          "10.15.7*",
+          "Glossário: Documentos técnicos do PIE*",
           "10.2.5"
         ]
       },
@@ -90,15 +137,15 @@
         "top3": [
           "10.2.7",
           "10.2.5",
-          "10.2.6"
+          "Glossário: Documentos técnicos do PIE*"
         ]
       },
       "hibrida": {
         "posicao": 1,
         "top3": [
           "10.2.7",
-          "10.2.5",
-          "10.2.5.1"
+          "Glossário: Documentos técnicos do PIE*",
+          "10.2.5"
         ]
       },
       "semantica+vigencia": {
@@ -108,6 +155,30 @@
           "10.2.5",
           "10.2.6"
         ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.2.7",
+          "10.2.5",
+          "10.2.6"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.2.7",
+          "10.2.6",
+          "10.3.8"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.2.7",
+          "10.2.6",
+          "10.3.8"
+        ]
       }
     },
     {
@@ -116,12 +187,13 @@
       "certo": [
         "10.2.9.3"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
           "10.8.6",
-          "Anexo IV*",
-          "Anexo IV*"
+          "Anexo I*",
+          "35.4.1.1*"
         ]
       },
       "semantica": {
@@ -136,16 +208,40 @@
         "posicao": null,
         "top3": [
           "10.8.4*",
-          "10.2.5.1",
-          "10.8.6"
+          "10.8.6",
+          "Anexo III*"
         ]
       },
       "semantica+vigencia": {
         "posicao": null,
         "top3": [
+          "12.4.3*",
+          "33.3.4.1.1*",
+          "35.4.5.1*"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": null,
+        "top3": [
           "10.5.3",
           "Anexo III*",
           "Anexo III*"
+        ]
+      },
+      "reranqueada": {
+        "posicao": null,
+        "top3": [
+          "10.5.3",
+          "12.4.3*",
+          "35.4.5.1*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "10.5.3",
+          "10.12.5*",
+          "10.7.7.1*"
         ]
       }
     },
@@ -155,12 +251,13 @@
       "certo": [
         "10.2.8.2"
       ],
+      "norma": "NR-10",
       "bm25": {
-        "posicao": 3,
+        "posicao": 5,
         "top3": [
+          "12.4.13.1.1*",
           "10.6.1.1*",
-          "10.6.8*",
-          "10.2.8.2"
+          "12.5.13*"
         ]
       },
       "semantica": {
@@ -175,16 +272,40 @@
         "posicao": null,
         "top3": [
           "10.6.8*",
-          "10.6.7*",
-          "10.6.1.1*"
+          "10.6.1.1*",
+          "10.6.7*"
         ]
       },
       "semantica+vigencia": {
+        "posicao": 5,
+        "top3": [
+          "10.2.8.1",
+          "12.1.8*",
+          "10.2.9.1"
+        ]
+      },
+      "com norma escolhida": {
         "posicao": 4,
         "top3": [
           "10.2.8.1",
           "10.2.9.1",
           "10.2.8.2.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": null,
+        "top3": [
+          "35.4.2*",
+          "10.2.8.2.1",
+          "10.2.8.1"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 4,
+        "top3": [
+          "10.2.8.2.1",
+          "10.2.8.1",
+          "10.2.9.1"
         ]
       }
     },
@@ -194,12 +315,13 @@
       "certo": [
         "10.6.1"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
-          "Glossário: Sistema Elétrico",
           "10.9.4*",
-          "10.3.2"
+          "10.9.5*",
+          "10.9.7*"
         ]
       },
       "semantica": {
@@ -207,15 +329,15 @@
         "top3": [
           "10.6.1",
           "10.6.1.1",
-          "Glossário: 200 Volts em corrente alternada ou 3000 Volts em corrente contínua. Observação*"
+          "Glossário: Média Tensão (MT)*"
         ]
       },
       "hibrida": {
         "posicao": null,
         "top3": [
           "10.9.5*",
-          "Glossário: Sistema Elétrico",
-          "10.9.6*"
+          "10.9.6*",
+          "10.9.7*"
         ]
       },
       "semantica+vigencia": {
@@ -225,6 +347,30 @@
           "10.6.1.1",
           "10.7.2"
         ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.6.1",
+          "10.6.1.1",
+          "10.7.2"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.6.1",
+          "10.7.2",
+          "10.7.5"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.6.1",
+          "10.7.2",
+          "10.7.5"
+        ]
       }
     },
     {
@@ -233,12 +379,13 @@
       "certo": [
         "10.8.1"
       ],
+      "norma": "NR-10",
       "bm25": {
-        "posicao": 3,
+        "posicao": null,
         "top3": [
-          "10.8.2",
-          "10.8.1*",
-          "10.8.1"
+          "Glossário: Trabalhador qualificado*",
+          "Glossário: Profissional legalmente habilitado*",
+          "Glossário: Profissional legalmente habilitado*"
         ]
       },
       "semantica": {
@@ -250,11 +397,11 @@
         ]
       },
       "hibrida": {
-        "posicao": 2,
+        "posicao": 3,
         "top3": [
+          "Glossário: Trabalhador qualificado*",
           "10.8.1*",
-          "10.8.1",
-          "10.8.2*"
+          "10.8.1"
         ]
       },
       "semantica+vigencia": {
@@ -262,7 +409,31 @@
         "top3": [
           "10.8.1",
           "10.8.6",
+          "Glossário: Trabalhador qualificado*"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.8.1",
+          "10.8.6",
           "10.8.8"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.8.1",
+          "Glossário: Trabalhador qualificado*",
+          "10.8.8"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.8.1",
+          "10.8.8",
+          "10.8.7"
         ]
       }
     },
@@ -272,11 +443,12 @@
       "certo": [
         "10.8.2"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": 1,
         "top3": [
           "10.8.2",
-          "10.2.7",
+          "35.5.3.1*",
           "10.8.3"
         ]
       },
@@ -284,19 +456,43 @@
         "posicao": 1,
         "top3": [
           "10.8.2",
-          "10.8.3",
-          "10.8.4"
+          "Glossário: Profissional legalmente habilitado*",
+          "Glossário: Profissional legalmente habilitado*"
         ]
       },
       "hibrida": {
         "posicao": 1,
         "top3": [
           "10.8.2",
-          "10.8.3",
-          "10.8.1*"
+          "Glossário: Profissional legalmente habilitado*",
+          "Glossário: Profissional legalmente habilitado*"
         ]
       },
       "semantica+vigencia": {
+        "posicao": 1,
+        "top3": [
+          "10.8.2",
+          "Glossário: Profissional legalmente habilitado*",
+          "Glossário: Profissional legalmente habilitado*"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.8.2",
+          "10.8.3",
+          "10.8.4"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.8.2",
+          "Glossário: Profissional legalmente habilitado*",
+          "Glossário: Profissional legalmente habilitado*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
         "posicao": 1,
         "top3": [
           "10.8.2",
@@ -311,12 +507,13 @@
       "certo": [
         "10.8.3.1"
       ],
+      "norma": "NR-10",
       "bm25": {
-        "posicao": 1,
+        "posicao": 5,
         "top3": [
-          "10.8.3.1",
-          "10.8.1*",
-          "10.8.1"
+          "Glossário: Profissional habilitado para a supervisão da capacitação*",
+          "12.16.6.1*",
+          "12.16.11*"
         ]
       },
       "semantica": {
@@ -324,23 +521,47 @@
         "top3": [
           "10.8.3.1",
           "10.8.3.3*",
-          "10.8.3.1*"
+          "12.16.6*"
         ]
       },
       "hibrida": {
         "posicao": 1,
         "top3": [
           "10.8.3.1",
-          "10.8.1*",
-          "10.8.8.1"
+          "12.16.3.1*",
+          "12.16.3.2*"
         ]
       },
       "semantica+vigencia": {
         "posicao": 1,
         "top3": [
           "10.8.3.1",
+          "12.16.6*",
+          "12.16.3.1*"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.8.3.1",
           "10.8.8.1",
           "10.8.8.2"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.8.3.1",
+          "12.16.6*",
+          "35.3.8*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 2,
+        "top3": [
+          "10.8.8.2",
+          "10.8.3.1",
+          "10.8.8.1"
         ]
       }
     },
@@ -350,12 +571,13 @@
       "certo": [
         "10.8.8.2"
       ],
+      "norma": "NR-10",
       "bm25": {
-        "posicao": null,
+        "posicao": 2,
         "top3": [
-          "10.13.1",
-          "10.3.3",
-          "10.13.2"
+          "12.6.3*",
+          "10.8.8.2",
+          "35.1.3*"
         ]
       },
       "semantica": {
@@ -370,11 +592,35 @@
         "posicao": 1,
         "top3": [
           "10.8.8.2",
-          "10.8.8.3",
-          "10.9.4*"
+          "12.16.8.1*",
+          "Anexo I*"
         ]
       },
       "semantica+vigencia": {
+        "posicao": 1,
+        "top3": [
+          "10.8.8.2",
+          "10.8.8.3",
+          "12.16.8*"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.8.8.2",
+          "10.8.8.3",
+          "10.7.2"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.8.8.2",
+          "12.16.7*",
+          "12.16.8*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
         "posicao": 1,
         "top3": [
           "10.8.8.2",
@@ -389,12 +635,13 @@
       "certo": [
         "10.8.7"
       ],
+      "norma": "NR-10",
       "bm25": {
-        "posicao": 2,
+        "posicao": 3,
         "top3": [
           "10.7.5*",
-          "10.8.7",
-          "10.9.5*"
+          "35.4.1.2*",
+          "10.8.7"
         ]
       },
       "semantica": {
@@ -410,7 +657,7 @@
         "top3": [
           "10.7.5*",
           "10.8.7",
-          "10.8.1*"
+          "10.9.5*"
         ]
       },
       "semantica+vigencia": {
@@ -420,6 +667,30 @@
           "10.4.6",
           "10.3.8"
         ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.8.7",
+          "10.4.6",
+          "10.3.8"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.8.7",
+          "10.8.8",
+          "10.7.5*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.8.7",
+          "10.8.8",
+          "10.7.5*"
+        ]
       }
     },
     {
@@ -428,20 +699,21 @@
       "certo": [
         "10.5.1"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
           "Glossário: Instalação Liberada para Serviços (BT/AT)",
-          "Glossário: Direito de Recusa",
-          "10.4.12*"
+          "35.6.2*",
+          "12.6.6*"
         ]
       },
       "semantica": {
-        "posicao": 4,
+        "posicao": 5,
         "top3": [
           "Anexo III*",
-          "10.13.1*",
-          "10.14*"
+          "Glossário: Instalação Liberada para Serviços (BT/AT)",
+          "10.13.1*"
         ]
       },
       "hibrida": {
@@ -459,6 +731,30 @@
           "10.5.1",
           "10.5.4"
         ]
+      },
+      "com norma escolhida": {
+        "posicao": 2,
+        "top3": [
+          "Glossário: Instalação Liberada para Serviços (BT/AT)",
+          "10.5.1",
+          "10.5.4"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.5.1",
+          "Glossário: Instalação Liberada para Serviços (BT/AT)",
+          "10.13.1*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.5.1",
+          "Glossário: Instalação Liberada para Serviços (BT/AT)",
+          "10.13.1*"
+        ]
       }
     },
     {
@@ -467,36 +763,61 @@
       "certo": [
         "10.14.1"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
           "Glossário: Direito de Recusa",
           "10.16.1*",
-          "Glossário: Trabalho em Proximidade"
+          "Glossário: Condições impeditivas*"
         ]
       },
       "semantica": {
         "posicao": 1,
         "top3": [
           "10.14.1",
-          "Glossário: Direito de Recusa",
-          "10.13.4"
+          "35.2.2*",
+          "Glossário: Direito de Recusa"
         ]
       },
       "hibrida": {
-        "posicao": null,
+        "posicao": 5,
         "top3": [
           "Glossário: Direito de Recusa",
           "10.16.1*",
-          "10.13.4"
+          "35.2.2*"
         ]
       },
       "semantica+vigencia": {
-        "posicao": 1,
+        "posicao": null,
         "top3": [
-          "10.14.1",
+          "35.2.2*",
           "Glossário: Direito de Recusa",
           "10.13.4"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "Glossário: Direito de Recusa",
+          "10.13.4",
+          "10.12.2"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 5,
+        "top3": [
+          "Glossário: Direito de Recusa",
+          "35.2.2*",
+          "35.3.2*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 3,
+        "top3": [
+          "Glossário: Direito de Recusa",
+          "10.13.4",
+          "10.14.1"
         ]
       }
     },
@@ -506,6 +827,7 @@
       "certo": [
         "10.14.6"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": 2,
         "top3": [
@@ -515,11 +837,11 @@
         ]
       },
       "semantica": {
-        "posicao": 3,
+        "posicao": 4,
         "top3": [
+          "Glossário: Extrabaixa Tensão (EBT)*",
           "10.2.4.1*",
-          "Glossário: Extra -Baixa Tensão (EBT)",
-          "10.14.6"
+          "Glossário: Extra -Baixa Tensão (EBT)"
         ]
       },
       "hibrida": {
@@ -527,7 +849,7 @@
         "top3": [
           "10.14.6",
           "Glossário: Extra -Baixa Tensão (EBT)",
-          "Glossário: Baixa Tensão (BT)"
+          "Glossário: Baixa Tensão (BT)*"
         ]
       },
       "semantica+vigencia": {
@@ -537,6 +859,30 @@
           "10.14.6",
           "Glossário: Baixa Tensão (BT)"
         ]
+      },
+      "com norma escolhida": {
+        "posicao": 2,
+        "top3": [
+          "Glossário: Extra -Baixa Tensão (EBT)",
+          "10.14.6",
+          "Glossário: Baixa Tensão (BT)"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.14.6",
+          "Glossário: Extra -Baixa Tensão (EBT)",
+          "10.2.4.1*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.14.6",
+          "Glossário: Extra -Baixa Tensão (EBT)",
+          "10.2.4.1*"
+        ]
       }
     },
     {
@@ -545,6 +891,7 @@
       "certo": [
         "10.13.1"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
@@ -558,7 +905,7 @@
         "top3": [
           "10.13.3",
           "10.14.2*",
-          "10.4.8*"
+          "33.3.2*"
         ]
       },
       "hibrida": {
@@ -573,8 +920,32 @@
         "posicao": null,
         "top3": [
           "10.13.3",
+          "33.3.2*",
+          "10.5.4"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "10.13.3",
           "10.5.4",
           "10.12.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": null,
+        "top3": [
+          "10.13.2",
+          "10.6.5",
+          "10.13.4"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "10.13.2",
+          "10.6.5",
+          "10.13.4"
         ]
       }
     },
@@ -584,36 +955,61 @@
       "certo": [
         "10.13.4"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
-          "10.16.1*",
-          "10.1.1*",
-          "10.12.6*"
+          "12.17.5.2*",
+          "Glossário: Máquina autopropelida ou automotriz*",
+          "12.17.5*"
         ]
       },
       "semantica": {
-        "posicao": 3,
+        "posicao": null,
         "top3": [
-          "10.7.8*",
-          "10.8.3*",
-          "10.13.4"
+          "12.14.3.1*",
+          "Anexo III",
+          "10.7.8*"
         ]
       },
       "hibrida": {
         "posicao": null,
         "top3": [
-          "10.1.1*",
-          "10.10.3*",
-          "10.8.2"
+          "12.14.3.1*",
+          "12.14.2.1*",
+          "12.17.5.2*"
         ]
       },
       "semantica+vigencia": {
+        "posicao": 4,
+        "top3": [
+          "12.14.3.1*",
+          "Anexo III",
+          "12.1.10*"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 2,
+        "top3": [
+          "Anexo III",
+          "10.13.4",
+          "10.2.9.3"
+        ]
+      },
+      "reranqueada": {
         "posicao": 1,
         "top3": [
           "10.13.4",
-          "10.2.9.3",
-          "10.8.2"
+          "12.1.10*",
+          "12.1.7*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.13.4",
+          "10.8.5",
+          "10.2.9.2"
         ]
       }
     },
@@ -623,12 +1019,13 @@
       "certo": [
         "10.11.2"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
-          "10.11.7",
-          "10.7.5",
-          "10.7.4"
+          "Glossário: Permissão de trabalho - ordem de serviço*",
+          "10.7.4",
+          "10.11.7"
         ]
       },
       "semantica": {
@@ -644,15 +1041,39 @@
         "top3": [
           "10.7.4*",
           "10.11.2",
-          "10.7.2*"
+          "10.7.5"
         ]
       },
       "semantica+vigencia": {
         "posicao": 1,
         "top3": [
           "10.11.2",
+          "12.3.10*",
+          "10.11.1"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.11.2",
           "10.11.1",
           "10.5.4"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.11.2",
+          "10.7.2*",
+          "10.11.1"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.11.2",
+          "10.7.2*",
+          "10.11.1"
         ]
       }
     },
@@ -662,12 +1083,13 @@
       "certo": [
         "10.11.6"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
-          "10.11.7",
-          "Glossário: Travamento",
-          "10.7.6*"
+          "33.3.1*",
+          "35.4.8.2*",
+          "10.11.7"
         ]
       },
       "semantica": {
@@ -679,11 +1101,11 @@
         ]
       },
       "hibrida": {
-        "posicao": 2,
+        "posicao": 3,
         "top3": [
           "10.7.6*",
-          "10.11.6",
-          "10.6.5"
+          "33.3.2*",
+          "10.11.6"
         ]
       },
       "semantica+vigencia": {
@@ -693,6 +1115,30 @@
           "10.2.6",
           "10.13.3"
         ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.11.6",
+          "10.2.6",
+          "10.13.3"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.11.6",
+          "10.7.6*",
+          "10.13.2"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.11.6",
+          "10.7.6*",
+          "10.13.2"
+        ]
       }
     },
     {
@@ -701,12 +1147,13 @@
       "certo": [
         "10.9.5"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": 1,
         "top3": [
           "10.9.5",
           "10.11.2",
-          "10.7.4"
+          "12.3.1*"
         ]
       },
       "semantica": {
@@ -718,10 +1165,10 @@
         ]
       },
       "hibrida": {
-        "posicao": 2,
+        "posicao": 1,
         "top3": [
-          "10.9.4",
           "10.9.5",
+          "10.9.4",
           "10.9.1"
         ]
       },
@@ -732,6 +1179,30 @@
           "10.6.3",
           "10.5.4"
         ]
+      },
+      "com norma escolhida": {
+        "posicao": 4,
+        "top3": [
+          "10.9.4",
+          "10.6.3",
+          "10.5.4"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.9.5",
+          "10.9.4",
+          "10.9.1"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.9.5",
+          "10.9.4",
+          "10.9.1"
+        ]
       }
     },
     {
@@ -740,36 +1211,61 @@
       "certo": [
         "10.12.2"
       ],
+      "norma": "NR-10",
       "bm25": {
-        "posicao": 1,
+        "posicao": 2,
         "top3": [
+          "Glossário: Plano de resgate*",
           "10.12.2",
-          "10.7.3*",
-          "Anexo III*"
+          "35.6.4*"
         ]
       },
       "semantica": {
         "posicao": 1,
         "top3": [
           "10.12.2",
-          "10.6.3",
-          "Anexo III*"
+          "35.6.4*",
+          "10.6.3"
         ]
       },
       "hibrida": {
         "posicao": 1,
         "top3": [
           "10.12.2",
-          "Anexo III*",
-          "10.12.3"
+          "35.6.4*",
+          "Anexo III*"
         ]
       },
       "semantica+vigencia": {
         "posicao": 1,
         "top3": [
           "10.12.2",
+          "35.6.4*",
+          "10.6.3"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.12.2",
           "10.6.3",
           "10.6.1.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 2,
+        "top3": [
+          "35.6.4*",
+          "10.12.2",
+          "35.3.2*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.12.2",
+          "10.12.4",
+          "10.8.8"
         ]
       }
     },
@@ -779,11 +1275,12 @@
       "certo": [
         "10.2.3"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
+          "12.13.5.1*",
           "10.3.7",
-          "10.8.6",
           "10.2.6"
         ]
       },
@@ -791,24 +1288,48 @@
         "posicao": 1,
         "top3": [
           "10.2.3",
-          "10.8.4*",
-          "10.8.4.2*"
+          "12.13.5.1*",
+          "12.5.17*"
         ]
       },
       "hibrida": {
-        "posicao": null,
+        "posicao": 5,
         "top3": [
-          "10.4.13*",
-          "10.2.6",
-          "10.4.7*"
+          "12.13.5.1*",
+          "35.4.1.3*",
+          "12.5.17*"
         ]
       },
       "semantica+vigencia": {
         "posicao": 1,
         "top3": [
           "10.2.3",
-          "10.14.2",
-          "10.2.6"
+          "12.13.5.1*",
+          "12.5.17*"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.2.3",
+          "10.8.5",
+          "10.14.2"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.2.3",
+          "12.13.5.1*",
+          "35.4.1.3*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.2.3",
+          "10.2.6",
+          "10.8.5"
         ]
       }
     },
@@ -818,12 +1339,13 @@
       "certo": [
         "10.2.9.2"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
-          "10.11.2",
+          "Anexo II*",
           "Anexo IV*",
-          "Anexo III*"
+          "Glossário: Normas do tipo do tipo B*"
         ]
       },
       "semantica": {
@@ -838,11 +1360,35 @@
         "posicao": 5,
         "top3": [
           "Anexo IV*",
-          "Anexo IV*",
-          "10.11.2"
+          "10.11.2",
+          "Anexo II*"
         ]
       },
       "semantica+vigencia": {
+        "posicao": 1,
+        "top3": [
+          "10.2.9.2",
+          "10.4.5",
+          "10.2.9.3"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.2.9.2",
+          "10.4.5",
+          "10.2.9.3"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.2.9.2",
+          "10.4.5",
+          "10.2.9.3"
+        ]
+      },
+      "reranqueada + norma escolhida": {
         "posicao": 1,
         "top3": [
           "10.2.9.2",
@@ -857,12 +1403,13 @@
       "certo": [
         "10.3.6"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": 1,
         "top3": [
           "10.3.6",
           "10.4.6*",
-          "10.3.2"
+          "Glossário: Aterramento Elétrico Temporário"
         ]
       },
       "semantica": {
@@ -878,7 +1425,7 @@
         "top3": [
           "10.3.6",
           "10.4.6*",
-          "10.4.2*"
+          "Glossário: Aterramento Elétrico Temporário"
         ]
       },
       "semantica+vigencia": {
@@ -888,6 +1435,30 @@
           "Glossário: Aterramento Elétrico Temporário",
           "10.3.2"
         ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.3.6",
+          "Glossário: Aterramento Elétrico Temporário",
+          "10.3.2"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.3.6",
+          "Glossário: Aterramento Elétrico Temporário",
+          "10.3.4"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.3.6",
+          "Glossário: Aterramento Elétrico Temporário",
+          "10.3.4"
+        ]
       }
     },
     {
@@ -896,28 +1467,29 @@
       "certo": [
         "Glossário: Alta Tensão"
       ],
+      "norma": "NR-10",
       "bm25": {
-        "posicao": 4,
+        "posicao": 5,
         "top3": [
+          "Glossário: Chama aberta*",
           "10.14.4*",
-          "10.9.6*",
-          "10.7.8"
+          "10.9.6*"
         ]
       },
       "semantica": {
-        "posicao": 1,
+        "posicao": 2,
         "top3": [
+          "Glossário: Alta Tensão (AT)*",
           "Glossário: Alta Tensão (AT)",
-          "10.2.4.1*",
-          "10.7.1"
+          "10.2.4.1*"
         ]
       },
       "hibrida": {
-        "posicao": 1,
+        "posicao": 2,
         "top3": [
+          "Glossário: Alta Tensão (AT)*",
           "Glossário: Alta Tensão (AT)",
-          "10.9.6*",
-          "10.7.1"
+          "10.9.6*"
         ]
       },
       "semantica+vigencia": {
@@ -927,6 +1499,30 @@
           "10.7.1",
           "10.7.9"
         ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "Glossário: Alta Tensão (AT)",
+          "10.7.1",
+          "10.7.9"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "Glossário: Alta Tensão (AT)",
+          "10.7.4",
+          "10.7.6"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "Glossário: Alta Tensão (AT)",
+          "10.7.4",
+          "10.7.6"
+        ]
       }
     },
     {
@@ -935,12 +1531,13 @@
       "certo": [
         "10.7.3"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
-          "10.7.4",
           "Glossário: Zona Controlada",
-          "10.14.3*"
+          "10.9.6*",
+          "Anexo III*"
         ]
       },
       "semantica": {
@@ -952,11 +1549,11 @@
         ]
       },
       "hibrida": {
-        "posicao": null,
+        "posicao": 5,
         "top3": [
           "10.7.4",
-          "10.7.7",
-          "10.14.3*"
+          "Anexo III*",
+          "10.7.1"
         ]
       },
       "semantica+vigencia": {
@@ -965,6 +1562,30 @@
           "10.7.3",
           "10.7.6",
           "10.7.1"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.7.3",
+          "10.7.6",
+          "10.7.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.7.3",
+          "10.7.4",
+          "10.7.6"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.7.3",
+          "10.7.4",
+          "10.7.6"
         ]
       }
     },
@@ -974,38 +1595,1088 @@
       "certo": [
         "10.6.3"
       ],
+      "norma": "NR-10",
       "bm25": {
         "posicao": null,
         "top3": [
-          "Glossário: Zona Controlada",
-          "Glossário: Zona de Risco",
-          "10.11.7"
+          "35.5.6.1*",
+          "Glossário: Partes vivas*",
+          "Glossário: Zona Controlada"
+        ]
+      },
+      "semantica": {
+        "posicao": 3,
+        "top3": [
+          "Anexo XII*",
+          "Anexo XII*",
+          "10.6.3"
+        ]
+      },
+      "hibrida": {
+        "posicao": null,
+        "top3": [
+          "35.5.6.1*",
+          "Anexo XII*",
+          "Glossário: Partes vivas*"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": 3,
+        "top3": [
+          "Anexo XII*",
+          "Anexo XII*",
+          "10.6.3"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.6.3",
+          "10.12.1",
+          "10.5.4"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "10.6.3",
+          "Anexo XII*",
+          "Anexo XII*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "10.6.3",
+          "10.6.5",
+          "10.5.4"
+        ]
+      }
+    },
+    {
+      "id": "nr12-01",
+      "pergunta": "Toda máquina precisa ter botão de emergência?",
+      "certo": [
+        "12.6.1"
+      ],
+      "norma": "NR-12",
+      "bm25": {
+        "posicao": null,
+        "top3": [
+          "12.6.7.1",
+          "10.11.6*",
+          "Anexo VII"
         ]
       },
       "semantica": {
         "posicao": 1,
         "top3": [
-          "10.6.3",
-          "10.12.1",
-          "10.5.4"
+          "12.6.1",
+          "12.5.1.1",
+          "12.5.1.1"
         ]
       },
       "hibrida": {
-        "posicao": 4,
+        "posicao": null,
         "top3": [
-          "10.6.5",
-          "10.13.3*",
-          "Glossário: Zona Controlada"
+          "12.5.1.1",
+          "12.5.1.1",
+          "12.5.1.1"
         ]
       },
       "semantica+vigencia": {
         "posicao": 1,
         "top3": [
-          "10.6.3",
-          "10.12.1",
-          "10.5.4"
+          "12.6.1",
+          "12.5.1.1",
+          "12.5.1.1"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "12.6.1",
+          "12.5.1.1",
+          "12.5.1.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 2,
+        "top3": [
+          "Anexo IX",
+          "12.6.1",
+          "12.5.1.1"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 2,
+        "top3": [
+          "Anexo IX",
+          "12.6.1",
+          "12.5.1.1"
+        ]
+      }
+    },
+    {
+      "id": "nr12-02",
+      "pergunta": "A máquina precisa vir com manual do fabricante?",
+      "certo": [
+        "12.13.1"
+      ],
+      "norma": "NR-12",
+      "bm25": {
+        "posicao": 1,
+        "top3": [
+          "12.13.1",
+          "Glossário: Máquina ou equipamento manual",
+          "Anexo X"
+        ]
+      },
+      "semantica": {
+        "posicao": 1,
+        "top3": [
+          "12.13.1",
+          "12.13.3",
+          "12.13.5.3"
+        ]
+      },
+      "hibrida": {
+        "posicao": 1,
+        "top3": [
+          "12.13.1",
+          "12.13.5.3",
+          "12.12.7"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": 1,
+        "top3": [
+          "12.13.1",
+          "12.13.3",
+          "12.13.5.3"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "12.13.1",
+          "12.13.3",
+          "12.13.5.3"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "12.13.1",
+          "12.13.4",
+          "12.2"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "12.13.1",
+          "12.13.4",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "id": "nr12-03",
+      "pergunta": "O treinamento do operador pode ser descontado do salário dele?",
+      "certo": [
+        "12.16.3"
+      ],
+      "norma": "NR-12",
+      "bm25": {
+        "posicao": null,
+        "top3": [
+          "12.5.1.1",
+          "35.3.3*",
+          "Anexo V"
+        ]
+      },
+      "semantica": {
+        "posicao": null,
+        "top3": [
+          "35.3.3.1*",
+          "35.3.3*",
+          "35.3.3*"
+        ]
+      },
+      "hibrida": {
+        "posicao": null,
+        "top3": [
+          "35.3.3*",
+          "10.9.5*",
+          "35.3.3*"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": null,
+        "top3": [
+          "35.3.3.1*",
+          "35.3.3*",
+          "35.3.3*"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "12.1.10",
+          "Anexo V",
+          "12.16.6.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": null,
+        "top3": [
+          "35.3.3*",
+          "35.3.6*",
+          "35.3.7*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "Anexo V",
+          "12.16.6.1",
+          "12.1.10"
+        ]
+      }
+    },
+    {
+      "id": "nr12-04",
+      "pergunta": "De quanto em quanto tempo tem que fazer manutenção na máquina?",
+      "certo": [
+        "12.11.1"
+      ],
+      "norma": "NR-12",
+      "bm25": {
+        "posicao": null,
+        "top3": [
+          "Glossário: Teste de resposta ou “bumptest”*",
+          "10.3.3*",
+          "10.4.3*"
+        ]
+      },
+      "semantica": {
+        "posicao": 1,
+        "top3": [
+          "12.11.1",
+          "12.11.5",
+          "12.16.1"
+        ]
+      },
+      "hibrida": {
+        "posicao": 3,
+        "top3": [
+          "12.11.2",
+          "Glossário: Teste de resposta ou “bumptest”*",
+          "12.11.1"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": 1,
+        "top3": [
+          "12.11.1",
+          "12.11.5",
+          "12.16.1"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "12.11.1",
+          "12.11.5",
+          "12.16.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "12.11.1",
+          "12.11.5",
+          "12.11.4"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "12.11.1",
+          "12.11.5",
+          "12.11.4"
+        ]
+      }
+    },
+    {
+      "id": "nr12-05",
+      "pergunta": "O corredor em volta das máquinas precisa ser pintado no chão?",
+      "certo": [
+        "12.2.1"
+      ],
+      "norma": "NR-12",
+      "bm25": {
+        "posicao": null,
+        "top3": [
+          "35.5.9.1*",
+          "35.5.11*",
+          "Glossário: Trava-quedas*"
+        ]
+      },
+      "semantica": {
+        "posicao": null,
+        "top3": [
+          "12.1",
+          "12.15.1.1",
+          "12.5.1.1"
+        ]
+      },
+      "hibrida": {
+        "posicao": null,
+        "top3": [
+          "12.1.4",
+          "35.5.9.1*",
+          "12.1"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": null,
+        "top3": [
+          "12.1",
+          "12.15.1.1",
+          "12.5.1.1"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "12.1",
+          "12.15.1.1",
+          "12.5.1.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": null,
+        "top3": [
+          "12.7.8.1",
+          "12.4.3",
+          "Anexo IX"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "12.7.8.1",
+          "Anexo X",
+          "12.4.3"
+        ]
+      }
+    },
+    {
+      "id": "nr33-01",
+      "pergunta": "Por quanto tempo tenho que guardar a permissão de entrada em espaço confinado?",
+      "certo": [
+        "33.5.9"
+      ],
+      "norma": "NR-33",
+      "bm25": {
+        "posicao": null,
+        "top3": [
+          "33.7.1",
+          "33.4.2",
+          "33.5.16.1"
+        ]
+      },
+      "semantica": {
+        "posicao": null,
+        "top3": [
+          "33.7.1",
+          "33.5.16.1",
+          "33.5.5"
+        ]
+      },
+      "hibrida": {
+        "posicao": null,
+        "top3": [
+          "33.7.1",
+          "33.5.16.1",
+          "33.5.6"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": null,
+        "top3": [
+          "33.7.1",
+          "33.5.16.1",
+          "33.5.5"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "33.7.1",
+          "33.5.16.1",
+          "33.5.5"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 2,
+        "top3": [
+          "33.5.12.1.1",
+          "33.5.9",
+          "33.5.12"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 2,
+        "top3": [
+          "33.5.12.1.1",
+          "33.5.9",
+          "33.5.12"
+        ]
+      }
+    },
+    {
+      "id": "nr33-02",
+      "pergunta": "Posso entrar num tanque sem permissão escrita se for rapidinho?",
+      "certo": [
+        "33.5.5"
+      ],
+      "norma": "NR-33",
+      "bm25": {
+        "posicao": null,
+        "top3": [
+          "Anexo II",
+          "Glossário: Etiquetagem",
+          "Glossário: Colhedora de grãos*"
+        ]
+      },
+      "semantica": {
+        "posicao": null,
+        "top3": [
+          "35.4.7*",
+          "Anexo XII*",
+          "12.12.4.1*"
+        ]
+      },
+      "hibrida": {
+        "posicao": null,
+        "top3": [
+          "Anexo II",
+          "35.4.7*",
+          "35.4.8*"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": null,
+        "top3": [
+          "35.4.7*",
+          "Anexo XII*",
+          "12.12.4.1*"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "Anexo II",
+          "33.5.16.3",
+          "33.6.4"
+        ]
+      },
+      "reranqueada": {
+        "posicao": null,
+        "top3": [
+          "Anexo II",
+          "Anexo XII*",
+          "35.4.7*"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "33.7.1",
+          "Anexo II",
+          "33.5.16.1"
+        ]
+      }
+    },
+    {
+      "id": "nr33-03",
+      "pergunta": "Quem emite a PET antes de começar o trabalho no espaço confinado?",
+      "certo": [
+        "33.3.3"
+      ],
+      "norma": "NR-33",
+      "bm25": {
+        "posicao": 1,
+        "top3": [
+          "33.3.3",
+          "Anexo II",
+          "33.5.5"
+        ]
+      },
+      "semantica": {
+        "posicao": null,
+        "top3": [
+          "33.5.5",
+          "33.5.11",
+          "33.5.7.1"
+        ]
+      },
+      "hibrida": {
+        "posicao": 3,
+        "top3": [
+          "33.5.5",
+          "33.5.11",
+          "33.3.3"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": null,
+        "top3": [
+          "33.5.5",
+          "33.5.11",
+          "33.5.7.1"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "33.5.5",
+          "33.5.11",
+          "33.5.7.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "33.3.3",
+          "33.5.5",
+          "33.5.7.1"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "33.3.3",
+          "33.5.5",
+          "33.5.7.1"
+        ]
+      }
+    },
+    {
+      "id": "nr33-04",
+      "pergunta": "O que o vigia do lado de fora do espaço confinado tem que fazer?",
+      "certo": [
+        "33.3.4"
+      ],
+      "norma": "NR-33",
+      "bm25": {
+        "posicao": 3,
+        "top3": [
+          "Glossário: Vigia",
+          "33.5.15.1",
+          "33.3.4"
+        ]
+      },
+      "semantica": {
+        "posicao": 2,
+        "top3": [
+          "33.3.4.1",
+          "33.3.4",
+          "33.5.11"
+        ]
+      },
+      "hibrida": {
+        "posicao": 2,
+        "top3": [
+          "Glossário: Vigia",
+          "33.3.4",
+          "33.3.4.1"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": 2,
+        "top3": [
+          "33.3.4.1",
+          "33.3.4",
+          "33.5.11"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 2,
+        "top3": [
+          "33.3.4.1",
+          "33.3.4",
+          "33.5.11"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "33.3.4",
+          "Glossário: Vigia",
+          "33.3.4.1"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "33.3.4",
+          "Glossário: Vigia",
+          "33.3.4.1"
+        ]
+      }
+    },
+    {
+      "id": "nr33-05",
+      "pergunta": "Pode fazer solda dentro de espaço confinado?",
+      "certo": [
+        "33.5.1"
+      ],
+      "norma": "NR-33",
+      "bm25": {
+        "posicao": null,
+        "top3": [
+          "33.4.2",
+          "33.3.4.1",
+          "33.5.16.1"
+        ]
+      },
+      "semantica": {
+        "posicao": 1,
+        "top3": [
+          "33.5.1",
+          "33.5.16.1",
+          "33.7.1"
+        ]
+      },
+      "hibrida": {
+        "posicao": null,
+        "top3": [
+          "33.5.16.1",
+          "33.7.1",
+          "33.3.4.1"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": 1,
+        "top3": [
+          "33.5.1",
+          "33.5.16.1",
+          "33.7.1"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "33.5.1",
+          "33.5.16.1",
+          "33.7.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "33.5.1",
+          "33.7.1",
+          "33.5.3"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "33.5.1",
+          "33.7.1",
+          "33.5.3"
+        ]
+      }
+    },
+    {
+      "id": "nr35-01",
+      "pergunta": "A partir de quantos metros é considerado trabalho em altura?",
+      "certo": [
+        "35.1.2"
+      ],
+      "norma": "NR-35 (manual)",
+      "bm25": {
+        "posicao": 4,
+        "top3": [
+          "12.2*",
+          "12.2*",
+          "35.4.1.1"
+        ]
+      },
+      "semantica": {
+        "posicao": 2,
+        "top3": [
+          "35.4.1.1",
+          "35.1.2",
+          "35.3.4"
+        ]
+      },
+      "hibrida": {
+        "posicao": 2,
+        "top3": [
+          "35.4.1.1",
+          "35.1.2",
+          "12.2*"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": 2,
+        "top3": [
+          "35.4.1.1",
+          "35.1.2",
+          "35.3.4"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 2,
+        "top3": [
+          "35.4.1.1",
+          "35.1.2",
+          "35.3.4"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "35.1.2",
+          "Anexo XII*",
+          "35.4.1.1"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "35.1.2",
+          "35.3.2",
+          "35.4.1"
+        ]
+      }
+    },
+    {
+      "id": "nr35-02",
+      "pergunta": "Quantas horas tem o curso de trabalho em altura?",
+      "certo": [
+        "35.3.2"
+      ],
+      "norma": "NR-35 (manual)",
+      "bm25": {
+        "posicao": 3,
+        "top3": [
+          "12.16.11*",
+          "Anexo I",
+          "35.3.2"
+        ]
+      },
+      "semantica": {
+        "posicao": 3,
+        "top3": [
+          "35.3.1",
+          "35.3.4",
+          "35.3.2"
+        ]
+      },
+      "hibrida": {
+        "posicao": 1,
+        "top3": [
+          "35.3.2",
+          "Anexo I",
+          "10.9.10*"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": 3,
+        "top3": [
+          "35.3.1",
+          "35.3.4",
+          "35.3.2"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 3,
+        "top3": [
+          "35.3.1",
+          "35.3.4",
+          "35.3.2"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "35.3.2",
+          "Anexo I",
+          "35.3.4"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "35.3.2",
+          "Anexo I",
+          "35.3.4"
+        ]
+      }
+    },
+    {
+      "id": "nr35-03",
+      "pergunta": "Preciso fazer análise de risco antes de subir no telhado?",
+      "certo": [
+        "35.4.5"
+      ],
+      "norma": "NR-35 (manual)",
+      "bm25": {
+        "posicao": 2,
+        "top3": [
+          "35.5.6.1",
+          "35.4.5",
+          "35.4.7.1"
+        ]
+      },
+      "semantica": {
+        "posicao": 3,
+        "top3": [
+          "35.5.11",
+          "35.4.5.1",
+          "35.4.5"
+        ]
+      },
+      "hibrida": {
+        "posicao": 2,
+        "top3": [
+          "35.5.8.1",
+          "35.4.5",
+          "Glossário: Análise de risco*"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": 3,
+        "top3": [
+          "35.5.11",
+          "35.4.5.1",
+          "35.4.5"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 3,
+        "top3": [
+          "35.5.11",
+          "35.4.5.1",
+          "35.4.5"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 1,
+        "top3": [
+          "35.4.5",
+          "Anexo I",
+          "35.5.8.1"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "35.4.5",
+          "35.2.1",
+          "Anexo I"
+        ]
+      }
+    },
+    {
+      "id": "nr35-04",
+      "pergunta": "Quando é obrigatório usar cinto e linha de vida?",
+      "certo": [
+        "35.5.1"
+      ],
+      "norma": "NR-35 (manual)",
+      "bm25": {
+        "posicao": null,
+        "top3": [
+          "33.5.17.2*",
+          "Anexo II",
+          "Glossário: Trava-quedas"
+        ]
+      },
+      "semantica": {
+        "posicao": null,
+        "top3": [
+          "Referências",
+          "Glossário: Vida útil de máquina e equipamento*",
+          "12.8.6.2*"
+        ]
+      },
+      "hibrida": {
+        "posicao": null,
+        "top3": [
+          "Referências",
+          "Anexo II",
+          "Glossário: Vida útil de máquina e equipamento*"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": null,
+        "top3": [
+          "Referências",
+          "Glossário: Vida útil de máquina e equipamento*",
+          "12.8.6.2*"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "Referências",
+          "Glossário: Cinturão de segurança tipo paraquedista",
+          "35.4.2"
+        ]
+      },
+      "reranqueada": {
+        "posicao": null,
+        "top3": [
+          "Anexo II*",
+          "35.4.2",
+          "Referências"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": null,
+        "top3": [
+          "35.4.2",
+          "Referências",
+          "Anexo II"
+        ]
+      }
+    },
+    {
+      "id": "nr35-05",
+      "pergunta": "A empresa precisa ter equipe de resgate para trabalho em altura?",
+      "certo": [
+        "35.6.1"
+      ],
+      "norma": "NR-35 (manual)",
+      "bm25": {
+        "posicao": 5,
+        "top3": [
+          "35.6.1.1",
+          "35.3.2",
+          "35.6.4"
+        ]
+      },
+      "semantica": {
+        "posicao": 1,
+        "top3": [
+          "35.6.1",
+          "35.6.4",
+          "35.6.1.1"
+        ]
+      },
+      "hibrida": {
+        "posicao": 3,
+        "top3": [
+          "35.6.1.1",
+          "35.6.4",
+          "35.6.1"
+        ]
+      },
+      "semantica+vigencia": {
+        "posicao": 1,
+        "top3": [
+          "35.6.1",
+          "35.6.4",
+          "35.6.1.1"
+        ]
+      },
+      "com norma escolhida": {
+        "posicao": 1,
+        "top3": [
+          "35.6.1",
+          "35.6.4",
+          "35.6.1.1"
+        ]
+      },
+      "reranqueada": {
+        "posicao": 3,
+        "top3": [
+          "35.6.1.1",
+          "35.6.4",
+          "35.6.1"
+        ]
+      },
+      "reranqueada + norma escolhida": {
+        "posicao": 3,
+        "top3": [
+          "35.6.1.1",
+          "35.6.4",
+          "35.6.1"
         ]
       }
     }
-  ]
+  ],
+  "recusa": {
+    "limiar_em_uso": 0.15,
+    "similaridade_e5": {
+      "dentro_min": 0.843,
+      "fora_max": 0.856,
+      "linhas": [
+        {
+          "limiar": 0.82,
+          "recusa_indevida": "0/40",
+          "aceita_fora_do_assunto": "18/20"
+        },
+        {
+          "limiar": 0.835,
+          "recusa_indevida": "0/40",
+          "aceita_fora_do_assunto": "9/20"
+        },
+        {
+          "limiar": 0.85,
+          "recusa_indevida": "3/40",
+          "aceita_fora_do_assunto": "1/20"
+        },
+        {
+          "limiar": 0.86,
+          "recusa_indevida": "6/40",
+          "aceita_fora_do_assunto": "0/20"
+        }
+      ]
+    },
+    "relevancia_cross_encoder": {
+      "dentro_min": 0.002,
+      "fora_max": 0.055,
+      "linhas": [
+        {
+          "limiar": 0.01,
+          "recusa_indevida": "3/40",
+          "aceita_fora_do_assunto": "3/20"
+        },
+        {
+          "limiar": 0.05,
+          "recusa_indevida": "5/40",
+          "aceita_fora_do_assunto": "1/20"
+        },
+        {
+          "limiar": 0.1,
+          "recusa_indevida": "5/40",
+          "aceita_fora_do_assunto": "0/20"
+        },
+        {
+          "limiar": 0.15,
+          "recusa_indevida": "6/40",
+          "aceita_fora_do_assunto": "0/20"
+        },
+        {
+          "limiar": 0.3,
+          "recusa_indevida": "10/40",
+          "aceita_fora_do_assunto": "0/20"
+        },
+        {
+          "limiar": 0.5,
+          "recusa_indevida": "12/40",
+          "aceita_fora_do_assunto": "0/20"
+        }
+      ]
+    }
+  }
 }

@@ -9,7 +9,7 @@
 {"id": "nr10-09", "pergunta": "De quanto em quanto tempo tem que refazer o treinamento de reciclagem?", "itens": ["10.8.8.2"]}
 {"id": "nr10-10", "pergunta": "Quem trabalha com eletricidade precisa fazer exame médico específico?", "itens": ["10.8.7"]}
 {"id": "nr10-11", "pergunta": "Quais passos são necessários para considerar uma instalação desligada e liberada para trabalho?", "itens": ["10.5.1"]}
-{"id": "nr10-12", "pergunta": "O trabalhador pode se recusar a fazer o serviço se achar que corre risco grave?", "itens": ["10.14.1"]}
+{"id": "nr10-12", "pergunta": "O trabalhador pode se recusar a fazer o serviço se achar que corre risco grave?", "itens": ["10.14.1"], "espera_aviso_revogado": true}
 {"id": "nr10-13", "pergunta": "A norma vale para circuitos de extra-baixa tensão?", "itens": ["10.14.6"]}
 {"id": "nr10-14", "pergunta": "Se a empresa terceiriza o serviço elétrico, de quem é a responsabilidade pela segurança?", "itens": ["10.13.1"], "espera_aviso_revogado": true}
 {"id": "nr10-15", "pergunta": "Quais são as obrigações do próprio trabalhador segundo a norma?", "itens": ["10.13.4"]}
@@ -23,3 +23,18 @@
 {"id": "nr10-23", "pergunta": "O que a norma chama de alta tensão?", "itens": ["Glossário: Alta Tensão"]}
 {"id": "nr10-24", "pergunta": "Um eletricista pode trabalhar sozinho em linha energizada de alta tensão?", "itens": ["10.7.3"]}
 {"id": "nr10-25", "pergunta": "O que fazer com o serviço em rede energizada quando vem uma tempestade?", "itens": ["10.6.3"]}
+{"id": "nr12-01", "norma": "NR-12", "pergunta": "Toda máquina precisa ter botão de emergência?", "itens": ["12.6.1"]}
+{"id": "nr12-02", "norma": "NR-12", "pergunta": "A máquina precisa vir com manual do fabricante?", "itens": ["12.13.1"]}
+{"id": "nr12-03", "norma": "NR-12", "pergunta": "O treinamento do operador pode ser descontado do salário dele?", "itens": ["12.16.3"]}
+{"id": "nr12-04", "norma": "NR-12", "pergunta": "De quanto em quanto tempo tem que fazer manutenção na máquina?", "itens": ["12.11.1"]}
+{"id": "nr12-05", "norma": "NR-12", "pergunta": "O corredor em volta das máquinas precisa ser pintado no chão?", "itens": ["12.2.1"]}
+{"id": "nr33-01", "norma": "NR-33", "pergunta": "Por quanto tempo tenho que guardar a permissão de entrada em espaço confinado?", "itens": ["33.5.9"]}
+{"id": "nr33-02", "norma": "NR-33", "pergunta": "Posso entrar num tanque sem permissão escrita se for rapidinho?", "itens": ["33.5.5"]}
+{"id": "nr33-03", "norma": "NR-33", "pergunta": "Quem emite a PET antes de começar o trabalho no espaço confinado?", "itens": ["33.3.3"]}
+{"id": "nr33-04", "norma": "NR-33", "pergunta": "O que o vigia do lado de fora do espaço confinado tem que fazer?", "itens": ["33.3.4"]}
+{"id": "nr33-05", "norma": "NR-33", "pergunta": "Pode fazer solda dentro de espaço confinado?", "itens": ["33.5.1"]}
+{"id": "nr35-01", "norma": "NR-35 (manual)", "pergunta": "A partir de quantos metros é considerado trabalho em altura?", "itens": ["35.1.2"]}
+{"id": "nr35-02", "norma": "NR-35 (manual)", "pergunta": "Quantas horas tem o curso de trabalho em altura?", "itens": ["35.3.2"]}
+{"id": "nr35-03", "norma": "NR-35 (manual)", "pergunta": "Preciso fazer análise de risco antes de subir no telhado?", "itens": ["35.4.5"]}
+{"id": "nr35-04", "norma": "NR-35 (manual)", "pergunta": "Quando é obrigatório usar cinto e linha de vida?", "itens": ["35.5.1"]}
+{"id": "nr35-05", "norma": "NR-35 (manual)", "pergunta": "A empresa precisa ter equipe de resgate para trabalho em altura?", "itens": ["35.6.1"]}

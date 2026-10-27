@@ -1,0 +1,4768 @@
+{
+  "gabarito": [
+    {
+      "pergunta": "A partir de quantos kW de carga a empresa precisa ter o prontuário das instalações elétricas?",
+      "itens": [
+        "10.2.4"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9959235191345215,
+      "candidatos": [
+        {
+          "item": "10.2.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9959235191345215
+        },
+        {
+          "item": "10.2.5",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.4602581560611725
+        },
+        {
+          "item": "10.2.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.4238417446613312
+        },
+        {
+          "item": "10.2.5.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.17216899991035461
+        },
+        {
+          "item": "10.15.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.1666836440563202
+        },
+        {
+          "item": "Glossário: Prontuário de Instalações Elétricas (PIE)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.08121120929718018
+        },
+        {
+          "item": "Glossário: Distribuição de energia elétrica",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.05624763295054436
+        },
+        {
+          "item": "10.2.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.040827225893735886
+        },
+        {
+          "item": "10.2.7",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.018153417855501175
+        },
+        {
+          "item": "10.8.7",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.007951527833938599
+        },
+        {
+          "item": "10.8.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.006268203724175692
+        },
+        {
+          "item": "12.3.7",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0062292395159602165
+        },
+        {
+          "item": "10.7.5",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.00575212761759758
+        },
+        {
+          "item": "10.6.1.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.004712635651230812
+        },
+        {
+          "item": "10.14",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0008073181961663067
+        }
+      ]
+    },
+    {
+      "pergunta": "Quem pode assinar os documentos técnicos do prontuário elétrico?",
+      "itens": [
+        "10.2.7"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9537713527679443,
+      "candidatos": [
+        {
+          "item": "10.2.7",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9537713527679443
+        },
+        {
+          "item": "10.2.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.6686900854110718
+        },
+        {
+          "item": "Glossário: Documentos técnicos do PIE",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.5477806925773621
+        },
+        {
+          "item": "10.3.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.37044209241867065
+        },
+        {
+          "item": "10.2.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.2774955928325653
+        },
+        {
+          "item": "10.2.5",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.21923033893108368
+        },
+        {
+          "item": "10.15.7",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.1812286078929901
+        },
+        {
+          "item": "10.15.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.16488482058048248
+        },
+        {
+          "item": "10.2.5.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.024180233478546143
+        },
+        {
+          "item": "Glossário: Prontuário de Instalações Elétricas (PIE)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.014840799383819103
+        },
+        {
+          "item": "10.8.7",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.013347962871193886
+        },
+        {
+          "item": "10.4.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0061457473784685135
+        },
+        {
+          "item": "10.15.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.005832847207784653
+        },
+        {
+          "item": "10.7.5",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.005609887186437845
+        },
+        {
+          "item": "33.5.17.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.0021927570924162865
+        }
+      ]
+    },
+    {
+      "pergunta": "Posso trabalhar no painel elétrico usando aliança e relógio?",
+      "itens": [
+        "10.2.9.3"
+      ],
+      "norma": "NR-10",
+      "nota": 0.016361011192202568,
+      "candidatos": [
+        {
+          "item": "10.7.7.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.016361011192202568
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.007849561981856823
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0052618831396102905
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0032020951621234417
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0030951090157032013
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0030004435684531927
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.00284587312489748
+        },
+        {
+          "item": "10.5.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0019633809570223093
+        },
+        {
+          "item": "10.14.1.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0017448514699935913
+        },
+        {
+          "item": "10.4.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.001035233261063695
+        },
+        {
+          "item": "12.4.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0008889539749361575
+        },
+        {
+          "item": "10.8.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0005694726714864373
+        },
+        {
+          "item": "35.4.5.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0005266637890599668
+        },
+        {
+          "item": "10.14.5",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.00028090589330531657
+        },
+        {
+          "item": "33.3.4.1.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.00014491777983494103
+        }
+      ]
+    },
+    {
+      "pergunta": "Qual é a primeira medida de proteção coletiva que deve ser adotada?",
+      "itens": [
+        "10.2.8.2"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9406161904335022,
+      "candidatos": [
+        {
+          "item": "10.6.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.9406161904335022
+        },
+        {
+          "item": "35.4.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.9320988059043884
+        },
+        {
+          "item": "10.6.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.891374409198761
+        },
+        {
+          "item": "10.5.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.8814120888710022
+        },
+        {
+          "item": "10.2.8.2.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.8632475137710571
+        },
+        {
+          "item": "10.2.8.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.8568350672721863
+        },
+        {
+          "item": "10.6.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.8443769216537476
+        },
+        {
+          "item": "10.6.7",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.841874361038208
+        },
+        {
+          "item": "12.1.8",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.8412443995475769
+        },
+        {
+          "item": "10.6.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.7888275384902954
+        },
+        {
+          "item": "10.6.1.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.7689639925956726
+        },
+        {
+          "item": "10.2.9.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.7580000162124634
+        },
+        {
+          "item": "10.2.8.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.7077643871307373
+        },
+        {
+          "item": "10.6.1.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.6712899208068848
+        },
+        {
+          "item": "10.6.2.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.60099858045578
+        }
+      ]
+    },
+    {
+      "pergunta": "Acima de qual voltagem o eletricista precisa de treinamento para mexer em circuito ligado?",
+      "itens": [
+        "10.6.1"
+      ],
+      "norma": "NR-10",
+      "nota": 0.03784036263823509,
+      "candidatos": [
+        {
+          "item": "10.6.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.03784036263823509
+        },
+        {
+          "item": "10.9.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.021190034225583076
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.01837112568318844
+        },
+        {
+          "item": "10.7.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.00844280794262886
+        },
+        {
+          "item": "10.7.5",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.007733214646577835
+        },
+        {
+          "item": "10.8.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.007177415769547224
+        },
+        {
+          "item": "10.6.1.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.006335780955851078
+        },
+        {
+          "item": "10.6.1.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.004215615801513195
+        },
+        {
+          "item": "Glossário: Alta Tensão (AT)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.004040155094116926
+        },
+        {
+          "item": "10.14.1.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.003693530336022377
+        },
+        {
+          "item": "Glossário: Extra -Baixa Tensão (EBT)",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0034047586377710104
+        },
+        {
+          "item": "Glossário: Extrabaixa Tensão (EBT)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.002974079456180334
+        },
+        {
+          "item": "Glossário: Média Tensão (MT)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.002917909063398838
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.002875677775591612
+        },
+        {
+          "item": "10.9.5",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0020122018177062273
+        }
+      ]
+    },
+    {
+      "pergunta": "O que define um trabalhador qualificado em eletricidade?",
+      "itens": [
+        "10.8.1"
+      ],
+      "norma": "NR-10",
+      "nota": 0.992599606513977,
+      "candidatos": [
+        {
+          "item": "10.8.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.992599606513977
+        },
+        {
+          "item": "10.8.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.99253910779953
+        },
+        {
+          "item": "10.8.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.9500053524971008
+        },
+        {
+          "item": "10.10.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.8016946315765381
+        },
+        {
+          "item": "10.8.4.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.5549822449684143
+        },
+        {
+          "item": "Glossário: Trabalhador qualificado",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.5416508316993713
+        },
+        {
+          "item": "10.8.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.4827762544155121
+        },
+        {
+          "item": "10.8.7",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.45318251848220825
+        },
+        {
+          "item": "10.8.9",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.44907814264297485
+        },
+        {
+          "item": "10.8.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.43009766936302185
+        },
+        {
+          "item": "10.8.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.357972115278244
+        },
+        {
+          "item": "10.8.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.30215731263160706
+        },
+        {
+          "item": "10.8.3.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.29112938046455383
+        },
+        {
+          "item": "10.8.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.14725899696350098
+        },
+        {
+          "item": "10.6.1.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.00849956925958395
+        }
+      ]
+    },
+    {
+      "pergunta": "Quem é considerado profissional legalmente habilitado?",
+      "itens": [
+        "10.8.2"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9978379607200623,
+      "candidatos": [
+        {
+          "item": "10.8.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9978379607200623
+        },
+        {
+          "item": "Glossário: Profissional legalmente habilitado",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.995408833026886
+        },
+        {
+          "item": "Glossário: Profissional legalmente habilitado",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.9947944283485413
+        },
+        {
+          "item": "10.8.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.7759748101234436
+        },
+        {
+          "item": "10.8.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.736840009689331
+        },
+        {
+          "item": "10.10.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.5532770752906799
+        },
+        {
+          "item": "12.16.6",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.4469887912273407
+        },
+        {
+          "item": "Glossário: Profissional habilitado para a supervisão da capacitação",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.3769376873970032
+        },
+        {
+          "item": "Glossário: Profissional ou trabalhador capacitado",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.31776162981987
+        },
+        {
+          "item": "10.8.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.18096370995044708
+        },
+        {
+          "item": "10.8.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.1566716581583023
+        },
+        {
+          "item": "10.8.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.09376372396945953
+        },
+        {
+          "item": "10.8.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.09265738725662231
+        },
+        {
+          "item": "10.8.3.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.07779645174741745
+        },
+        {
+          "item": "Glossário: Profissional ou trabalhador qualificado",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.027088314294815063
+        }
+      ]
+    },
+    {
+      "pergunta": "O curso de capacitação que fiz numa empresa vale quando eu mudo de emprego?",
+      "itens": [
+        "10.8.3.1"
+      ],
+      "norma": "NR-10",
+      "nota": 0.2632521986961365,
+      "candidatos": [
+        {
+          "item": "10.8.3.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.2632521986961365
+        },
+        {
+          "item": "12.16.6",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.12017787247896194
+        },
+        {
+          "item": "10.8.3.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.04864851385354996
+        },
+        {
+          "item": "35.3.8",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.04474297910928726
+        },
+        {
+          "item": "12.16.3.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.014149585738778114
+        },
+        {
+          "item": "10.8.8.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.012691863812506199
+        },
+        {
+          "item": "35.3.6",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.012660061940550804
+        },
+        {
+          "item": "12.16.7",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.007970405742526054
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.005588159896433353
+        },
+        {
+          "item": "12.16.3.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0054414477199316025
+        },
+        {
+          "item": "12.16.3.1.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0032843530643731356
+        },
+        {
+          "item": "33.6.3",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.0017552367644384503
+        },
+        {
+          "item": "33.6.5",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.0016655393410474062
+        },
+        {
+          "item": "10.8.3.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0012458248529583216
+        },
+        {
+          "item": "10.8.4.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0005808862042613328
+        }
+      ]
+    },
+    {
+      "pergunta": "De quanto em quanto tempo tem que refazer o treinamento de reciclagem?",
+      "itens": [
+        "10.8.8.2"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9364143013954163,
+      "candidatos": [
+        {
+          "item": "10.8.8.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9364143013954163
+        },
+        {
+          "item": "12.16.7",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.11141544580459595
+        },
+        {
+          "item": "12.16.8",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.1098630353808403
+        },
+        {
+          "item": "12.16.8.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0738474652171135
+        },
+        {
+          "item": "10.8.8.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.06368514895439148
+        },
+        {
+          "item": "10.9.11",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.005583236459642649
+        },
+        {
+          "item": "35.3.3",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.004457293543964624
+        },
+        {
+          "item": "10.9.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0015081972815096378
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.0010439840843901038
+        },
+        {
+          "item": "10.9.10",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0009789528558030725
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.0009469493525102735
+        },
+        {
+          "item": "Anexo I",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.000503287126775831
+        },
+        {
+          "item": "33.5.9",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.00016633003542665392
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 8.709591202205047e-05
+        },
+        {
+          "item": "Anexo I",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 3.602895594667643e-05
+        }
+      ]
+    },
+    {
+      "pergunta": "Quem trabalha com eletricidade precisa fazer exame médico específico?",
+      "itens": [
+        "10.8.7"
+      ],
+      "norma": "NR-10",
+      "nota": 0.912347674369812,
+      "candidatos": [
+        {
+          "item": "10.7.5",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.912347674369812
+        },
+        {
+          "item": "10.8.7",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9112980365753174
+        },
+        {
+          "item": "10.8.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.25557810068130493
+        },
+        {
+          "item": "10.8.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.1290922313928604
+        },
+        {
+          "item": "10.7.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.1285753697156906
+        },
+        {
+          "item": "10.4.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.05073220282793045
+        },
+        {
+          "item": "10.7.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.04561450704932213
+        },
+        {
+          "item": "10.11.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.031557198613882065
+        },
+        {
+          "item": "10.7.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.026853907853364944
+        },
+        {
+          "item": "10.7.9",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.02041672170162201
+        },
+        {
+          "item": "10.12.9",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.018121598288416862
+        },
+        {
+          "item": "10.11.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.015051024965941906
+        },
+        {
+          "item": "10.7.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.010499182157218456
+        },
+        {
+          "item": "10.4.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.007005755789577961
+        },
+        {
+          "item": "10.3.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.005073943175375462
+        }
+      ]
+    },
+    {
+      "pergunta": "Quais passos são necessários para considerar uma instalação desligada e liberada para trabalho?",
+      "itens": [
+        "10.5.1"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9558569192886353,
+      "candidatos": [
+        {
+          "item": "10.13.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.9558569192886353
+        },
+        {
+          "item": "10.5.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.8740974068641663
+        },
+        {
+          "item": "Glossário: Instalação Liberada para Serviços (BT/AT)",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.4121454954147339
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.16925792396068573
+        },
+        {
+          "item": "10.5.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0723065435886383
+        },
+        {
+          "item": "10.14.1.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.024581866338849068
+        },
+        {
+          "item": "12.15.1.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.01654260791838169
+        },
+        {
+          "item": "10.3.9",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.007921095006167889
+        },
+        {
+          "item": "12.15.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.007781662978231907
+        },
+        {
+          "item": "10.14",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.00436764769256115
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0014394987374544144
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0007846069056540728
+        },
+        {
+          "item": "12.2.1.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00045948810293339193
+        },
+        {
+          "item": "12.5.11",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00045052982750348747
+        },
+        {
+          "item": "12.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0003576062445063144
+        }
+      ]
+    },
+    {
+      "pergunta": "O trabalhador pode se recusar a fazer o serviço se achar que corre risco grave?",
+      "itens": [
+        "10.14.1"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9919049739837646,
+      "candidatos": [
+        {
+          "item": "10.14.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": true,
+          "nota": 0.9919049739837646
+        },
+        {
+          "item": "Glossário: Direito de Recusa",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9679552316665649
+        },
+        {
+          "item": "35.2.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.9620819687843323
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.32057371735572815
+        },
+        {
+          "item": "10.16.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.3139415979385376
+        },
+        {
+          "item": "10.13.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.17079132795333862
+        },
+        {
+          "item": "12.14.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.059278711676597595
+        },
+        {
+          "item": "10.7.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.038280609995126724
+        },
+        {
+          "item": "10.7.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.018980273976922035
+        },
+        {
+          "item": "12.8.7.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.012151645496487617
+        },
+        {
+          "item": "Anexo I",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.009636064060032368
+        },
+        {
+          "item": "10.12.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.009464339353144169
+        },
+        {
+          "item": "12.1.10",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0075586214661598206
+        },
+        {
+          "item": "10.13.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0008998707053251565
+        },
+        {
+          "item": "10.7.2.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0006478966679424047
+        }
+      ]
+    },
+    {
+      "pergunta": "A norma vale para circuitos de extra-baixa tensão?",
+      "itens": [
+        "10.14.6"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9464300274848938,
+      "candidatos": [
+        {
+          "item": "10.2.4.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.9464300274848938
+        },
+        {
+          "item": "10.2.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.9339725375175476
+        },
+        {
+          "item": "10.14.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9136505722999573
+        },
+        {
+          "item": "Glossário: Extrabaixa Tensão (EBT)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.8226629495620728
+        },
+        {
+          "item": "Glossário: Extra -Baixa Tensão (EBT)",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.7969763278961182
+        },
+        {
+          "item": "10.14.1.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.6427446007728577
+        },
+        {
+          "item": "Glossário: Baixa Tensão (BT)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.08976339548826218
+        },
+        {
+          "item": "Glossário: Baixa Tensão (BT)",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.06755855679512024
+        },
+        {
+          "item": "10.6.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.05981031432747841
+        },
+        {
+          "item": "10.6.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.034797318279743195
+        },
+        {
+          "item": "12.3.7.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.009954551234841347
+        },
+        {
+          "item": "10.4.5",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.008579147979617119
+        },
+        {
+          "item": "12.3.7",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.008097448386251926
+        },
+        {
+          "item": "Glossário: Média Tensão (MT)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.005461592227220535
+        },
+        {
+          "item": "Glossário: Alta Tensão (AT)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.003595477668568492
+        }
+      ]
+    },
+    {
+      "pergunta": "Se a empresa terceiriza o serviço elétrico, de quem é a responsabilidade pela segurança?",
+      "itens": [
+        "10.13.1"
+      ],
+      "norma": "NR-10",
+      "nota": 0.4806029796600342,
+      "candidatos": [
+        {
+          "item": "10.13.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.4806029796600342
+        },
+        {
+          "item": "10.6.5",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.4576356112957001
+        },
+        {
+          "item": "10.4.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.3402253985404968
+        },
+        {
+          "item": "10.13.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.2654833197593689
+        },
+        {
+          "item": "10.4.8.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.2051352858543396
+        },
+        {
+          "item": "10.13.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.19445283710956573
+        },
+        {
+          "item": "10.13.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.07433580607175827
+        },
+        {
+          "item": "10.12.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.03603851795196533
+        },
+        {
+          "item": "10.4.4.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.019850442185997963
+        },
+        {
+          "item": "10.14.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.01825880818068981
+        },
+        {
+          "item": "10.6.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.013947445899248123
+        },
+        {
+          "item": "10.14.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.012256529182195663
+        },
+        {
+          "item": "33.3.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.009115088731050491
+        },
+        {
+          "item": "10.5.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.006147492211312056
+        },
+        {
+          "item": "10.12.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.003532757516950369
+        }
+      ]
+    },
+    {
+      "pergunta": "Quais são as obrigações do próprio trabalhador segundo a norma?",
+      "itens": [
+        "10.13.4"
+      ],
+      "norma": "NR-10",
+      "nota": 0.6185541152954102,
+      "candidatos": [
+        {
+          "item": "10.13.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.6185541152954102
+        },
+        {
+          "item": "12.1.10",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.21442851424217224
+        },
+        {
+          "item": "12.1.7",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.2030542939901352
+        },
+        {
+          "item": "12.16.9",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.045321375131607056
+        },
+        {
+          "item": "12.14.3.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.031075967475771904
+        },
+        {
+          "item": "12.14.2.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.028905833140015602
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.028273290023207664
+        },
+        {
+          "item": "10.8.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.017224153503775597
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.012580092065036297
+        },
+        {
+          "item": "10.8.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.012296147644519806
+        },
+        {
+          "item": "10.10.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.01193912886083126
+        },
+        {
+          "item": "12.9.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.006156276445835829
+        },
+        {
+          "item": "10.2.9.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0031344082672148943
+        },
+        {
+          "item": "10.7.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0015948693035170436
+        },
+        {
+          "item": "10.15.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0011723589850589633
+        }
+      ]
+    },
+    {
+      "pergunta": "Precisa de ordem de serviço aprovada antes de começar um serviço elétrico?",
+      "itens": [
+        "10.11.2"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9710455536842346,
+      "candidatos": [
+        {
+          "item": "10.11.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9710455536842346
+        },
+        {
+          "item": "10.7.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.20752090215682983
+        },
+        {
+          "item": "10.7.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.12099616229534149
+        },
+        {
+          "item": "10.11.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.039292268455028534
+        },
+        {
+          "item": "10.6.6.1.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.01913897879421711
+        },
+        {
+          "item": "10.7.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.016498997807502747
+        },
+        {
+          "item": "10.7.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.01479439064860344
+        },
+        {
+          "item": "10.3.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.008397859521210194
+        },
+        {
+          "item": "10.4.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.006625129375606775
+        },
+        {
+          "item": "10.8.4.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.005105352029204369
+        },
+        {
+          "item": "10.5.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0030786506831645966
+        },
+        {
+          "item": "12.3.10",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.002322205575183034
+        },
+        {
+          "item": "10.5.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0021587505470961332
+        },
+        {
+          "item": "10.4.13",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0017503640847280622
+        },
+        {
+          "item": "10.8.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0009230548166669905
+        }
+      ]
+    },
+    {
+      "pergunta": "Numa equipe de eletricistas, alguém precisa ser o responsável por supervisionar?",
+      "itens": [
+        "10.11.6"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9267135262489319,
+      "candidatos": [
+        {
+          "item": "10.7.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.9267135262489319
+        },
+        {
+          "item": "10.11.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.16511157155036926
+        },
+        {
+          "item": "10.13.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.02082158252596855
+        },
+        {
+          "item": "10.2.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.013665367849171162
+        },
+        {
+          "item": "10.6.5",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.010046543553471565
+        },
+        {
+          "item": "10.13.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.007272851653397083
+        },
+        {
+          "item": "10.4.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0029750452376902103
+        },
+        {
+          "item": "10.7.11",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0028964076191186905
+        },
+        {
+          "item": "10.4.7",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0022070957347750664
+        },
+        {
+          "item": "33.3.3",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.001626763609237969
+        },
+        {
+          "item": "10.12.9",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0012052343226969242
+        },
+        {
+          "item": "10.13.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0010411334224045277
+        },
+        {
+          "item": "33.3.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.0009100045426748693
+        },
+        {
+          "item": "10.2.7",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0008403594838455319
+        },
+        {
+          "item": "10.12.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0005902520497329533
+        }
+      ]
+    },
+    {
+      "pergunta": "Como deve ser autorizado o serviço elétrico em área com risco de explosão?",
+      "itens": [
+        "10.9.5"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9758390188217163,
+      "candidatos": [
+        {
+          "item": "10.9.5",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9758390188217163
+        },
+        {
+          "item": "10.9.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.8687018156051636
+        },
+        {
+          "item": "10.6.6.1.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.732943594455719
+        },
+        {
+          "item": "10.9.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.5885409116744995
+        },
+        {
+          "item": "10.7.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.3486209809780121
+        },
+        {
+          "item": "10.6.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.15036875009536743
+        },
+        {
+          "item": "10.14.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.11897711455821991
+        },
+        {
+          "item": "10.14.1.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0953303873538971
+        },
+        {
+          "item": "10.14.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.05085050314664841
+        },
+        {
+          "item": "10.7.7",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.026054780930280685
+        },
+        {
+          "item": "10.12.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.019724110141396523
+        },
+        {
+          "item": "10.14.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.013017739169299603
+        },
+        {
+          "item": "10.6.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.012817171402275562
+        },
+        {
+          "item": "10.5.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.009290589019656181
+        },
+        {
+          "item": "10.13.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0034938575699925423
+        }
+      ]
+    },
+    {
+      "pergunta": "Os eletricistas precisam saber fazer resgate e primeiros socorros?",
+      "itens": [
+        "10.12.2"
+      ],
+      "norma": "NR-10",
+      "nota": 0.8273591995239258,
+      "candidatos": [
+        {
+          "item": "35.6.4",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.8273591995239258
+        },
+        {
+          "item": "10.12.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.8068181872367859
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.29202207922935486
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.2183324247598648
+        },
+        {
+          "item": "10.12.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.18519710004329681
+        },
+        {
+          "item": "10.8.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.17712479829788208
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.13237422704696655
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.07088692486286163
+        },
+        {
+          "item": "10.2.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.025219250470399857
+        },
+        {
+          "item": "10.6.1.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0178659837692976
+        },
+        {
+          "item": "10.12.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.017668621614575386
+        },
+        {
+          "item": "10.13.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.014560277573764324
+        },
+        {
+          "item": "10.4.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.007646423764526844
+        },
+        {
+          "item": "10.6.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.005343514494597912
+        },
+        {
+          "item": "10.7.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.004372018855065107
+        }
+      ]
+    },
+    {
+      "pergunta": "A empresa é obrigada a ter o diagrama unifilar atualizado?",
+      "itens": [
+        "10.2.3"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9917861819267273,
+      "candidatos": [
+        {
+          "item": "10.2.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9917861819267273
+        },
+        {
+          "item": "12.13.5.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.04089145362377167
+        },
+        {
+          "item": "35.4.1.3",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.03307370841503143
+        },
+        {
+          "item": "12.18.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.006786311976611614
+        },
+        {
+          "item": "12.5.17",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0025429597590118647
+        },
+        {
+          "item": "10.4.13",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0023156702518463135
+        },
+        {
+          "item": "12.11.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0006758869858458638
+        },
+        {
+          "item": "12.1.9.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0005908359889872372
+        },
+        {
+          "item": "35.2.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.00020318797032814473
+        },
+        {
+          "item": "10.7.9",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.00012622048961929977
+        },
+        {
+          "item": "35.1.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0001172612319351174
+        },
+        {
+          "item": "35.5.5.1.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 9.337039227830246e-05
+        },
+        {
+          "item": "10.8.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 7.741605077171698e-05
+        },
+        {
+          "item": "10.8.4.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 4.804909258382395e-05
+        },
+        {
+          "item": "Anexo II",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 3.189783456036821e-05
+        }
+      ]
+    },
+    {
+      "pergunta": "Que tipo de roupa o eletricista deve usar?",
+      "itens": [
+        "10.2.9.2"
+      ],
+      "norma": "NR-10",
+      "nota": 0.15065324306488037,
+      "candidatos": [
+        {
+          "item": "10.2.9.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.15065324306488037
+        },
+        {
+          "item": "10.11.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0861617848277092
+        },
+        {
+          "item": "Anexo IV",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.08501597493886948
+        },
+        {
+          "item": "Anexo IV",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.06426199525594711
+        },
+        {
+          "item": "10.11.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.05292808637022972
+        },
+        {
+          "item": "10.7.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.04634476825594902
+        },
+        {
+          "item": "10.4.5",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.011976080946624279
+        },
+        {
+          "item": "10.2.9.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.005148075986653566
+        },
+        {
+          "item": "10.7.9",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0035538021475076675
+        },
+        {
+          "item": "10.11.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.002648788271471858
+        },
+        {
+          "item": "10.8.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.002596046542748809
+        },
+        {
+          "item": "10.8.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0023742658086121082
+        },
+        {
+          "item": "10.4.8",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0018963334150612354
+        },
+        {
+          "item": "10.6.1.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0014689769595861435
+        },
+        {
+          "item": "10.12.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0008763023070059717
+        }
+      ]
+    },
+    {
+      "pergunta": "O projeto elétrico tem que prever aterramento temporário?",
+      "itens": [
+        "10.3.6"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9924827218055725,
+      "candidatos": [
+        {
+          "item": "10.4.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.9924827218055725
+        },
+        {
+          "item": "10.3.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9916545152664185
+        },
+        {
+          "item": "Glossário: Aterramento elétrico temporário",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.9679632782936096
+        },
+        {
+          "item": "Glossário: Aterramento Elétrico Temporário",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9586753845214844
+        },
+        {
+          "item": "10.3.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.8371962308883667
+        },
+        {
+          "item": "10.2.8.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.5005335211753845
+        },
+        {
+          "item": "10.15.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.36522483825683594
+        },
+        {
+          "item": "10.3.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.16302433609962463
+        },
+        {
+          "item": "10.4.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.15910881757736206
+        },
+        {
+          "item": "10.4.13",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.02819141000509262
+        },
+        {
+          "item": "10.3.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0257318876683712
+        },
+        {
+          "item": "10.4.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.02557947114109993
+        },
+        {
+          "item": "10.3.7",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.02148491144180298
+        },
+        {
+          "item": "10.4.7",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.013256648555397987
+        },
+        {
+          "item": "10.4.12",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.007301958743482828
+        }
+      ]
+    },
+    {
+      "pergunta": "O que a norma chama de alta tensão?",
+      "itens": [
+        "Glossário: Alta Tensão"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9660357236862183,
+      "candidatos": [
+        {
+          "item": "Glossário: Alta Tensão (AT)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.9660357236862183
+        },
+        {
+          "item": "Glossário: Alta Tensão (AT)",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9464499950408936
+        },
+        {
+          "item": "10.7.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.7126410007476807
+        },
+        {
+          "item": "10.7.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.69500333070755
+        },
+        {
+          "item": "10.7.9",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.6885871291160583
+        },
+        {
+          "item": "10.7.8",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.6805142760276794
+        },
+        {
+          "item": "10.7.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.6348354816436768
+        },
+        {
+          "item": "10.7.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.5719331502914429
+        },
+        {
+          "item": "10.2.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.513310432434082
+        },
+        {
+          "item": "10.9.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.27100178599357605
+        },
+        {
+          "item": "12.3.7.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.07361197471618652
+        },
+        {
+          "item": "Glossário: Limitação da tensão",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.02728111855685711
+        },
+        {
+          "item": "Glossário: Extrabaixa Tensão (EBT)",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.018993552774190903
+        },
+        {
+          "item": "10.2.4.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.006590299308300018
+        },
+        {
+          "item": "10.2.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.004563117399811745
+        }
+      ]
+    },
+    {
+      "pergunta": "Um eletricista pode trabalhar sozinho em linha energizada de alta tensão?",
+      "itens": [
+        "10.7.3"
+      ],
+      "norma": "NR-10",
+      "nota": 0.9189060926437378,
+      "candidatos": [
+        {
+          "item": "10.7.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.9189060926437378
+        },
+        {
+          "item": "10.7.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.8558579683303833
+        },
+        {
+          "item": "10.7.6",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.8404057025909424
+        },
+        {
+          "item": "10.7.9",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.834963858127594
+        },
+        {
+          "item": "10.14.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.8231738209724426
+        },
+        {
+          "item": "10.7.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.7598029971122742
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.5072545409202576
+        },
+        {
+          "item": "10.6.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.4132104218006134
+        },
+        {
+          "item": "10.7.7",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.27552881836891174
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.24028635025024414
+        },
+        {
+          "item": "10.14.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.09352467954158783
+        },
+        {
+          "item": "10.6.1.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.08982379734516144
+        },
+        {
+          "item": "10.13.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.06078687310218811
+        },
+        {
+          "item": "10.5.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.049693673849105835
+        },
+        {
+          "item": "10.6.1.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.039022695273160934
+        }
+      ]
+    },
+    {
+      "pergunta": "O que fazer com o serviço em rede energizada quando vem uma tempestade?",
+      "itens": [
+        "10.6.3"
+      ],
+      "norma": "NR-10",
+      "nota": 0.17861312627792358,
+      "candidatos": [
+        {
+          "item": "10.6.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.17861312627792358
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.09361613541841507
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.021427569910883904
+        },
+        {
+          "item": "10.6.5",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.01859041303396225
+        },
+        {
+          "item": "10.5.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.004594421945512295
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0036190846003592014
+        },
+        {
+          "item": "10.14.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0032637459225952625
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.002034363802522421
+        },
+        {
+          "item": "10.5.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.001206273678690195
+        },
+        {
+          "item": "10.13.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.001038837363012135
+        },
+        {
+          "item": "10.6.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.001005088328383863
+        },
+        {
+          "item": "10.14.1.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0009230676223523915
+        },
+        {
+          "item": "10.12.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0005365839460864663
+        },
+        {
+          "item": "33.5.14.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.00016701278218533844
+        },
+        {
+          "item": "10.8.4",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 5.1282928325235844e-05
+        }
+      ]
+    },
+    {
+      "pergunta": "Toda máquina precisa ter botão de emergência?",
+      "itens": [
+        "12.6.1"
+      ],
+      "norma": "NR-12",
+      "nota": 0.8658940196037292,
+      "candidatos": [
+        {
+          "item": "Anexo IX",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.8658940196037292
+        },
+        {
+          "item": "12.6.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.7522547841072083
+        },
+        {
+          "item": "12.5.1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.5368252396583557
+        },
+        {
+          "item": "12.4.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.5067064166069031
+        },
+        {
+          "item": "12.5.1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.42265942692756653
+        },
+        {
+          "item": "12.5.1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.3715468645095825
+        },
+        {
+          "item": "Anexo VI",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.2909865975379944
+        },
+        {
+          "item": "12.5.1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.2555363178253174
+        },
+        {
+          "item": "12.5.5",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.24314585328102112
+        },
+        {
+          "item": "12.6.1.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.1631973534822464
+        },
+        {
+          "item": "12.4.8",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.1337447315454483
+        },
+        {
+          "item": "12.4.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.09228473901748657
+        },
+        {
+          "item": "12.6.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.04659954085946083
+        },
+        {
+          "item": "12.6.8",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.009036652743816376
+        },
+        {
+          "item": "10.12.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0007942295633256435
+        }
+      ]
+    },
+    {
+      "pergunta": "A máquina precisa vir com manual do fabricante?",
+      "itens": [
+        "12.13.1"
+      ],
+      "norma": "NR-12",
+      "nota": 0.9822673201560974,
+      "candidatos": [
+        {
+          "item": "12.13.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.9822673201560974
+        },
+        {
+          "item": "12.13.4",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.9422615766525269
+        },
+        {
+          "item": "12.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.8428084254264832
+        },
+        {
+          "item": "12.13.5.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.4546964764595032
+        },
+        {
+          "item": "12.13.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.427297979593277
+        },
+        {
+          "item": "12.13.5.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.39503902196884155
+        },
+        {
+          "item": "Anexo V",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.2631821036338806
+        },
+        {
+          "item": "12.13.5",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.20321401953697205
+        },
+        {
+          "item": "12.12.7",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.11983232945203781
+        },
+        {
+          "item": "12.11.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.065513975918293
+        },
+        {
+          "item": "12.15.1.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0021667052060365677
+        },
+        {
+          "item": "12.4.8",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.001999110681936145
+        },
+        {
+          "item": "12.11.5",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0018085435731336474
+        },
+        {
+          "item": "12.11.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0016347955679520965
+        },
+        {
+          "item": "12.1.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0010673434007912874
+        }
+      ]
+    },
+    {
+      "pergunta": "O treinamento do operador pode ser descontado do salário dele?",
+      "itens": [
+        "12.16.3"
+      ],
+      "norma": "NR-12",
+      "nota": 0.005968470126390457,
+      "candidatos": [
+        {
+          "item": "35.3.3",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.005968470126390457
+        },
+        {
+          "item": "35.3.6",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.004982563201338053
+        },
+        {
+          "item": "35.3.7",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.004839543253183365
+        },
+        {
+          "item": "35.3.3",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.004192904103547335
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.003234574804082513
+        },
+        {
+          "item": "10.9.5",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0024511513765901327
+        },
+        {
+          "item": "10.7.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.002354230498895049
+        },
+        {
+          "item": "12.1.10",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0014854740584269166
+        },
+        {
+          "item": "35.3.3.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0011049848981201649
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0009836747776716948
+        },
+        {
+          "item": "10.9.6",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.000980303855612874
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.0009485942428000271
+        },
+        {
+          "item": "10.9.11.1",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0008358143386431038
+        },
+        {
+          "item": "10.9.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0005955986562184989
+        },
+        {
+          "item": "10.9.7",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0005780485225841403
+        }
+      ]
+    },
+    {
+      "pergunta": "De quanto em quanto tempo tem que fazer manutenção na máquina?",
+      "itens": [
+        "12.11.1"
+      ],
+      "norma": "NR-12",
+      "nota": 0.35756951570510864,
+      "candidatos": [
+        {
+          "item": "12.11.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.35756951570510864
+        },
+        {
+          "item": "12.11.5",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.12404832243919373
+        },
+        {
+          "item": "12.11.4",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.043582648038864136
+        },
+        {
+          "item": "12.15.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.039560262113809586
+        },
+        {
+          "item": "12.11.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.019919350743293762
+        },
+        {
+          "item": "12.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.012609504163265228
+        },
+        {
+          "item": "12.11.2.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.008652337826788425
+        },
+        {
+          "item": "12.11.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.006831421051174402
+        },
+        {
+          "item": "12.1.1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0054542128928005695
+        },
+        {
+          "item": "12.16.11",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.004987477790564299
+        },
+        {
+          "item": "12.16.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00458654947578907
+        },
+        {
+          "item": "12.13.4",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0034226274583488703
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.001757887308485806
+        },
+        {
+          "item": "10.8.8.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0006446267361752689
+        },
+        {
+          "item": "12.13.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.000494283449370414
+        }
+      ]
+    },
+    {
+      "pergunta": "O corredor em volta das máquinas precisa ser pintado no chão?",
+      "itens": [
+        "12.2.1"
+      ],
+      "norma": "NR-12",
+      "nota": 0.003971937578171492,
+      "candidatos": [
+        {
+          "item": "12.7.8.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.003971937578171492
+        },
+        {
+          "item": "12.4.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.001216743141412735
+        },
+        {
+          "item": "Anexo IX",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.001152569311670959
+        },
+        {
+          "item": "12.4.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0007029243279248476
+        },
+        {
+          "item": "12.4.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0005942409043200314
+        },
+        {
+          "item": "Anexo IX",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0004915906465612352
+        },
+        {
+          "item": "12.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0004706931358668953
+        },
+        {
+          "item": "12.15.1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0004563411639537662
+        },
+        {
+          "item": "12.7.8.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00038982604746706784
+        },
+        {
+          "item": "12.6.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0003499104641377926
+        },
+        {
+          "item": "Anexo IX",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00033792786416597664
+        },
+        {
+          "item": "12.1.4",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00030639467877335846
+        },
+        {
+          "item": "12.5.1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0002448819577693939
+        },
+        {
+          "item": "12.5.1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00022983124654274434
+        },
+        {
+          "item": "10.6.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.00018252787413075566
+        }
+      ]
+    },
+    {
+      "pergunta": "Por quanto tempo tenho que guardar a permissão de entrada em espaço confinado?",
+      "itens": [
+        "33.5.9"
+      ],
+      "norma": "NR-33",
+      "nota": 0.7010588645935059,
+      "candidatos": [
+        {
+          "item": "33.5.12.1.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.7010588645935059
+        },
+        {
+          "item": "33.5.9",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.2615070939064026
+        },
+        {
+          "item": "33.5.12",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.23128211498260498
+        },
+        {
+          "item": "33.7.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.20017404854297638
+        },
+        {
+          "item": "33.5.12.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.1470196694135666
+        },
+        {
+          "item": "33.5.5",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.11240053176879883
+        },
+        {
+          "item": "33.5.3",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.10287512093782425
+        },
+        {
+          "item": "33.5.6",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.059911616146564484
+        },
+        {
+          "item": "33.3.4.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.048094771802425385
+        },
+        {
+          "item": "33.5.21.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.04565919190645218
+        },
+        {
+          "item": "33.5.16.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.025062546133995056
+        },
+        {
+          "item": "33.5.10",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.023448435589671135
+        },
+        {
+          "item": "33.5.11",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.017519092187285423
+        },
+        {
+          "item": "33.5.21.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.015909213572740555
+        },
+        {
+          "item": "33.5.15.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.00810978189110756
+        }
+      ]
+    },
+    {
+      "pergunta": "Posso entrar num tanque sem permissão escrita se for rapidinho?",
+      "itens": [
+        "33.5.5"
+      ],
+      "norma": "NR-33",
+      "nota": 0.0015989580424502492,
+      "candidatos": [
+        {
+          "item": "Anexo II",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.0015989580424502492
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0009519214509055018
+        },
+        {
+          "item": "35.4.7",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0005303141078911722
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00023572798818349838
+        },
+        {
+          "item": "10.7.2.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.00023517977388110012
+        },
+        {
+          "item": "12.12.4",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0002022848348133266
+        },
+        {
+          "item": "10.7.2",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.00019398402946535498
+        },
+        {
+          "item": "12.12.4.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00013492611469700933
+        },
+        {
+          "item": "12.8.9.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 8.350097050424665e-05
+        },
+        {
+          "item": "12.16.10",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 8.261351467808709e-05
+        },
+        {
+          "item": "12.11.3.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 8.175816765287891e-05
+        },
+        {
+          "item": "12.2.8.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 7.510612340411171e-05
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 5.694314313586801e-05
+        },
+        {
+          "item": "12.14.2.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 3.96738359995652e-05
+        },
+        {
+          "item": "Anexo I",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 3.5661450965562835e-05
+        }
+      ]
+    },
+    {
+      "pergunta": "Quem emite a PET antes de começar o trabalho no espaço confinado?",
+      "itens": [
+        "33.3.3"
+      ],
+      "norma": "NR-33",
+      "nota": 0.9927882552146912,
+      "candidatos": [
+        {
+          "item": "33.3.3",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.9927882552146912
+        },
+        {
+          "item": "33.5.5",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.9042279720306396
+        },
+        {
+          "item": "33.5.7.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.8423865437507629
+        },
+        {
+          "item": "33.5.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.8369729518890381
+        },
+        {
+          "item": "33.5.7.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.7360913157463074
+        },
+        {
+          "item": "33.5.7",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.5847522616386414
+        },
+        {
+          "item": "33.5.12.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.5388991236686707
+        },
+        {
+          "item": "33.5.9.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.4111593961715698
+        },
+        {
+          "item": "33.5.8",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.2862603962421417
+        },
+        {
+          "item": "33.5.21.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.2711244225502014
+        },
+        {
+          "item": "33.5.7.2.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.24997633695602417
+        },
+        {
+          "item": "Glossário: PET",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.24171195924282074
+        },
+        {
+          "item": "33.5.11",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.17387112975120544
+        },
+        {
+          "item": "33.5.9",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.15045590698719025
+        },
+        {
+          "item": "33.5.12",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.150112122297287
+        }
+      ]
+    },
+    {
+      "pergunta": "O que o vigia do lado de fora do espaço confinado tem que fazer?",
+      "itens": [
+        "33.3.4"
+      ],
+      "norma": "NR-33",
+      "nota": 0.9889267683029175,
+      "candidatos": [
+        {
+          "item": "33.3.4",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.9889267683029175
+        },
+        {
+          "item": "Glossário: Vigia",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.9790298938751221
+        },
+        {
+          "item": "33.3.4.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.9396891593933105
+        },
+        {
+          "item": "33.5.12.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.3862060606479645
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.3421363830566406
+        },
+        {
+          "item": "33.5.6",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.29804879426956177
+        },
+        {
+          "item": "33.3.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.277569979429245
+        },
+        {
+          "item": "33.7.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.23057454824447632
+        },
+        {
+          "item": "33.5.7.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.17253750562667847
+        },
+        {
+          "item": "33.5.15.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.15761232376098633
+        },
+        {
+          "item": "33.5.7.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.1435157060623169
+        },
+        {
+          "item": "33.5.11",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.1241111010313034
+        },
+        {
+          "item": "33.5.16.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.03301246091723442
+        },
+        {
+          "item": "33.5.3",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.010903443209826946
+        },
+        {
+          "item": "Glossário: Espaço confinado",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.004516828339546919
+        }
+      ]
+    },
+    {
+      "pergunta": "Pode fazer solda dentro de espaço confinado?",
+      "itens": [
+        "33.5.1"
+      ],
+      "norma": "NR-33",
+      "nota": 0.9439604878425598,
+      "candidatos": [
+        {
+          "item": "33.5.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.9439604878425598
+        },
+        {
+          "item": "33.7.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.4398368000984192
+        },
+        {
+          "item": "33.5.3",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.2952696979045868
+        },
+        {
+          "item": "33.5.16.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.20999164879322052
+        },
+        {
+          "item": "33.3.4.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.18336306512355804
+        },
+        {
+          "item": "33.4.1.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.16489002108573914
+        },
+        {
+          "item": "33.2.2.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.15466150641441345
+        },
+        {
+          "item": "33.5.10",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.12258349359035492
+        },
+        {
+          "item": "33.5.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.09339893609285355
+        },
+        {
+          "item": "33.5.12.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.05242856964468956
+        },
+        {
+          "item": "33.6.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.050749242305755615
+        },
+        {
+          "item": "Glossário: Espaço confinado",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.04527215659618378
+        },
+        {
+          "item": "33.5.11",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.03425956889986992
+        },
+        {
+          "item": "33.5.17.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.01519535481929779
+        },
+        {
+          "item": "33.5.18.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.008503259159624577
+        }
+      ]
+    },
+    {
+      "pergunta": "A partir de quantos metros é considerado trabalho em altura?",
+      "itens": [
+        "35.1.2"
+      ],
+      "norma": "NR-35 (manual)",
+      "nota": 0.9930100440979004,
+      "candidatos": [
+        {
+          "item": "35.1.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.9930100440979004
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.3416005074977875
+        },
+        {
+          "item": "35.4.1.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.057820938527584076
+        },
+        {
+          "item": "12.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.019284037873148918
+        },
+        {
+          "item": "35.3.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.01845197193324566
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.01747487485408783
+        },
+        {
+          "item": "12.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.01411456149071455
+        },
+        {
+          "item": "12.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.012358604930341244
+        },
+        {
+          "item": "35.4.1.2.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.011174416169524193
+        },
+        {
+          "item": "35.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.011129551567137241
+        },
+        {
+          "item": "35.2.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.01079423725605011
+        },
+        {
+          "item": "35.3.4",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.007258248049765825
+        },
+        {
+          "item": "10.7.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0034329271875321865
+        },
+        {
+          "item": "10.7.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.003256565658375621
+        },
+        {
+          "item": "35.3",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.002254143124446273
+        }
+      ]
+    },
+    {
+      "pergunta": "Quantas horas tem o curso de trabalho em altura?",
+      "itens": [
+        "35.3.2"
+      ],
+      "norma": "NR-35 (manual)",
+      "nota": 0.9132921099662781,
+      "candidatos": [
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.9132921099662781
+        },
+        {
+          "item": "Anexo I",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.3005233108997345
+        },
+        {
+          "item": "35.3.4",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.17715656757354736
+        },
+        {
+          "item": "35.3.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.06774692237377167
+        },
+        {
+          "item": "35.3",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.00939133483916521
+        },
+        {
+          "item": "10.7.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.007498307153582573
+        },
+        {
+          "item": "10.9.10",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.006984656676650047
+        },
+        {
+          "item": "35.3.8",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.006478268653154373
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.006003780756145716
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.004333801567554474
+        },
+        {
+          "item": "35.2.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0034428515937179327
+        },
+        {
+          "item": "35.4.1.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.003240737831220031
+        },
+        {
+          "item": "35.4.1.2.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0020967237651348114
+        },
+        {
+          "item": "35.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0020668336655944586
+        },
+        {
+          "item": "10.7.1",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.0004341480671428144
+        }
+      ]
+    },
+    {
+      "pergunta": "Preciso fazer análise de risco antes de subir no telhado?",
+      "itens": [
+        "35.4.5"
+      ],
+      "norma": "NR-35 (manual)",
+      "nota": 0.16180521249771118,
+      "candidatos": [
+        {
+          "item": "35.4.5",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.16180521249771118
+        },
+        {
+          "item": "Anexo I",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.13357941806316376
+        },
+        {
+          "item": "35.5.8.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.1311240792274475
+        },
+        {
+          "item": "35.4.5.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.048372626304626465
+        },
+        {
+          "item": "35.1.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.03695894032716751
+        },
+        {
+          "item": "35.4.5.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.03621361404657364
+        },
+        {
+          "item": "35.5.11",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.032001931220293045
+        },
+        {
+          "item": "35.4.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.021935738623142242
+        },
+        {
+          "item": "10.7.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.01585710607469082
+        },
+        {
+          "item": "Anexo I",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.006728009320795536
+        },
+        {
+          "item": "35.2.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.004802331328392029
+        },
+        {
+          "item": "10.6.4",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.004374433774501085
+        },
+        {
+          "item": "Anexo I",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.002996289636939764
+        },
+        {
+          "item": "33.5.15.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.0010728406487032771
+        },
+        {
+          "item": "35.4.5.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0007227568421512842
+        }
+      ]
+    },
+    {
+      "pergunta": "Quando é obrigatório usar cinto e linha de vida?",
+      "itens": [
+        "35.5.1"
+      ],
+      "norma": "NR-35 (manual)",
+      "nota": 0.12240716069936752,
+      "candidatos": [
+        {
+          "item": "Anexo II",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.12240716069936752
+        },
+        {
+          "item": "35.4.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.03402894735336304
+        },
+        {
+          "item": "Referências",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.007884087972342968
+        },
+        {
+          "item": "Anexo II",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.004630561918020248
+        },
+        {
+          "item": "10.11.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.004460784140974283
+        },
+        {
+          "item": "10.2.9.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.00391697371378541
+        },
+        {
+          "item": "33.5.13.3.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.003790434682741761
+        },
+        {
+          "item": "Glossário: Cinturão de segurança tipo paraquedista",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.002963121747598052
+        },
+        {
+          "item": "35.1.3",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0027138986624777317
+        },
+        {
+          "item": "35.4.5.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.002339133992791176
+        },
+        {
+          "item": "35.5.9",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0016972324810922146
+        },
+        {
+          "item": "12.8.6.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0015678403433412313
+        },
+        {
+          "item": "Glossário: Vida útil de máquina e equipamento",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0008386655827052891
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.000775080407038331
+        },
+        {
+          "item": "Anexo XII",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0004296677652746439
+        }
+      ]
+    },
+    {
+      "pergunta": "A empresa precisa ter equipe de resgate para trabalho em altura?",
+      "itens": [
+        "35.6.1"
+      ],
+      "norma": "NR-35 (manual)",
+      "nota": 0.9930530190467834,
+      "candidatos": [
+        {
+          "item": "35.6.1.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.9930530190467834
+        },
+        {
+          "item": "35.6.4",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.9921535849571228
+        },
+        {
+          "item": "35.6.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.9759233593940735
+        },
+        {
+          "item": "Anexo I",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.9320337772369385
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.9016672372817993
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.7223877906799316
+        },
+        {
+          "item": "10.12.3",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
+          "revogado": false,
+          "nota": 0.703253448009491
+        },
+        {
+          "item": "35.2.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.3033824563026428
+        },
+        {
+          "item": "33.5.21.3",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.20870792865753174
+        },
+        {
+          "item": "35.2.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.1624339371919632
+        },
+        {
+          "item": "35.4.5.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.11011072993278503
+        },
+        {
+          "item": "35.3.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.07690191268920898
+        },
+        {
+          "item": "35.3.4",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.055023275315761566
+        },
+        {
+          "item": "33.3.6",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.043702516704797745
+        },
+        {
+          "item": "Anexo III",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0011056956136599183
+        }
+      ]
+    }
+  ],
+  "calibracao": [
+    {
+      "pergunta": "Qual a receita de bolo de cenoura?",
+      "nota": 0.00011205700866412371
+    },
+    {
+      "pergunta": "Quanto custa uma passagem para Salvador?",
+      "nota": 1.7482807379565202e-05
+    },
+    {
+      "pergunta": "Quem ganhou a Copa de 2002?",
+      "nota": 1.8072680177283473e-05
+    },
+    {
+      "pergunta": "Como declarar imposto de renda de MEI?",
+      "nota": 0.0034817627165466547
+    },
+    {
+      "pergunta": "Qual o melhor celular de 2026?",
+      "nota": 0.0002529594930820167
+    },
+    {
+      "pergunta": "Como funciona o consórcio de imóveis?",
+      "nota": 0.0001446887181373313
+    },
+    {
+      "pergunta": "Qual a capital da Austrália?",
+      "nota": 1.680729110375978e-05
+    },
+    {
+      "pergunta": "Como trocar o óleo do carro?",
+      "nota": 0.00011578810517676175
+    },
+    {
+      "pergunta": "Quanto tempo dura a garantia de um produto?",
+      "nota": 0.014505937695503235
+    },
+    {
+      "pergunta": "Como abrir uma conta no banco?",
+      "nota": 2.145184225810226e-05
+    },
+    {
+      "pergunta": "Qual o horário do jogo do Corinthians?",
+      "nota": 0.0014477975200861692
+    },
+    {
+      "pergunta": "Como cancelar uma assinatura de streaming?",
+      "nota": 3.173323784722015e-05
+    },
+    {
+      "pergunta": "Quais vacinas uma criança precisa tomar?",
+      "nota": 0.0006332641933113337
+    },
+    {
+      "pergunta": "Como funciona o décimo terceiro salário?",
+      "nota": 0.0017820963403210044
+    },
+    {
+      "pergunta": "Qual a melhor ração para cachorro?",
+      "nota": 2.291860982950311e-05
+    },
+    {
+      "pergunta": "Como pedir reembolso de uma compra online?",
+      "nota": 2.5866862415568903e-05
+    },
+    {
+      "pergunta": "Quantas horas por semana é a jornada de trabalho?",
+      "nota": 0.013972912915050983
+    },
+    {
+      "pergunta": "Como funciona o vale-transporte?",
+      "nota": 0.0016930116107687354
+    },
+    {
+      "pergunta": "Qual a previsão do tempo para amanhã?",
+      "nota": 0.00025665113935247064
+    },
+    {
+      "pergunta": "Como renovar a carteira de motorista?",
+      "nota": 0.012283158488571644
+    }
+  ],
+  "teste": [
+    {
+      "pergunta": "Qual o prazo para entregar a declaração do imposto de renda?",
+      "nota": 0.0019338156562298536
+    },
+    {
+      "pergunta": "Como faço para trocar a senha do Wi-Fi?",
+      "nota": 4.208122845739126e-05
+    },
+    {
+      "pergunta": "Qual a melhor época para plantar tomate?",
+      "nota": 2.5192002794938162e-05
+    },
+    {
+      "pergunta": "Quanto rende a poupança hoje?",
+      "nota": 1.76197227119701e-05
+    },
+    {
+      "pergunta": "Como funciona o seguro-desemprego?",
+      "nota": 0.0014119872357696295
+    },
+    {
+      "pergunta": "Quantas férias o trabalhador tem por ano?",
+      "nota": 0.0027797522488981485
+    },
+    {
+      "pergunta": "Qual o horário de funcionamento dos bancos?",
+      "nota": 0.0027810889296233654
+    },
+    {
+      "pergunta": "Como emitir a segunda via da conta de luz?",
+      "nota": 0.05542105436325073
+    },
+    {
+      "pergunta": "Qual o valor do salário mínimo?",
+      "nota": 0.00276704179123044
+    },
+    {
+      "pergunta": "Como montar um currículo?",
+      "nota": 0.001634986256249249
+    },
+    {
+      "pergunta": "Qual a diferença entre MEI e microempresa?",
+      "nota": 0.0023626484908163548
+    },
+    {
+      "pergunta": "Como calcular o FGTS na rescisão?",
+      "nota": 0.0001775718410499394
+    },
+    {
+      "pergunta": "Quais documentos preciso para tirar passaporte?",
+      "nota": 0.0026807663962244987
+    },
+    {
+      "pergunta": "Como fazer pão caseiro?",
+      "nota": 0.028341013938188553
+    },
+    {
+      "pergunta": "Qual o melhor plano de celular?",
+      "nota": 1.8457054466125555e-05
+    },
+    {
+      "pergunta": "Como funciona a licença-maternidade?",
+      "nota": 0.0007208833121694624
+    },
+    {
+      "pergunta": "Qual a velocidade máxima na rodovia?",
+      "nota": 0.030988426879048347
+    },
+    {
+      "pergunta": "Como limpar o filtro do ar-condicionado?",
+      "nota": 0.0016860987525433302
+    },
+    {
+      "pergunta": "O que é inflação?",
+      "nota": 0.0009565941873006523
+    },
+    {
+      "pergunta": "Como pedir aposentadoria pelo INSS?",
+      "nota": 0.0011953082866966724
+    }
+  ]
+}

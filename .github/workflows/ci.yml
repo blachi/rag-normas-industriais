@@ -1,0 +1,30 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  testes:
+    # testes que nao dependem do corpus nem do modelo: corte, quebra, glossario,
+    # vigencia por data, registro SQL. Os de corpus/modelo rodam local (ver README).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pypdf==5.1.0 pytest==8.3.4
+      - run: python -m pytest -q -m "not modelo" -p no:cacheprovider
+
+  imagem:
+    # prova que o Dockerfile constroi (o modelo e baixado no build)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t rag-normas .
+      - name: sobe sem PDFs e responde /saude
+        run: |
+          docker run -d --name api -p 8010:8010 rag-normas
+          for i in $(seq 1 30); do curl -fs http://127.0.0.1:8010/saude && exit 0; sleep 2; done
+          docker logs api; exit 1
