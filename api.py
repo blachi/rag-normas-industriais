@@ -74,10 +74,10 @@ button{padding:12px 18px;border:0;border-radius:10px;background:var(--ac);color:
 </style></head><body><main>
 <h1>Assistente de Normas Regulamentadoras</h1>
 <p class="sub">Pergunte do jeito que falaria no chão de fábrica. A resposta vem com a norma e o item.</p>
-<form id="f"><select id="n" aria-label="Norma"><option value="">Todas as normas</option></select><input id="q" placeholder="Ex.: posso usar aliança mexendo no painel?" autocomplete="off"><button>Perguntar</button></form>
+<form id="f"><select id="n" aria-label="Norma"><option value="">Todas as normas</option></select><input id="q" placeholder="Ex.: eletricista pode trabalhar sozinho em alta tensão?" autocomplete="off"><button>Perguntar</button></form>
 <div class="ex" id="ex"></div><div id="out"></div>
 <script>
-const EX=["Posso trabalhar no painel usando aliança e relógio?","De quanto em quanto tempo refaço a reciclagem?","Eletricista pode trabalhar sozinho em alta tensão?","Quem pode assinar os documentos técnicos do prontuário elétrico?","Qual a receita de bolo de cenoura?"];
+const EX=["Eletricista pode trabalhar sozinho em alta tensão?","Quem pode assinar os documentos técnicos do prontuário elétrico?","De quanto em quanto tempo refaço a reciclagem?","Qual a receita de bolo de cenoura?"];  // "aliança e relógio" saiu: é uma das 6 que o sistema não alcança (README)
 const ex=document.getElementById('ex');EX.forEach(t=>{const s=document.createElement('span');s.textContent=t;s.onclick=()=>{q.value=t;go()};ex.appendChild(s)});
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 fetch('/normas').then(r=>r.json()).then(L=>L.forEach(x=>{const o=document.createElement('option');o.value=o.textContent=x;n.appendChild(o)}));

@@ -1,10 +1,10 @@
 {
   "limiar": 0.15,
   "erros_na_calibracao": {
-    "gabarito_respondido_errado": 7,
+    "gabarito_respondido_errado": 8,
     "gabarito_recusado_que_acertaria": 1,
     "fora_respondida": 0,
-    "total": 8
+    "total": 9
   },
   "teste_fora_do_assunto": {
     "n": 20,
@@ -14,7 +14,7 @@
   },
   "gabarito": {
     "n": 40,
-    "certo_em_1o_no_limiar": 28,
+    "certo_em_1o_no_limiar": 27,
     "recusadas": [
       "Posso trabalhar no painel elétrico usando aliança e relógio?",
       "Acima de qual voltagem o eletricista precisa de treinamento para mexer em circuito ligado?",
@@ -27,66 +27,66 @@
   "curva": [
     {
       "limiar": 0.01,
-      "gabarito_respondido_errado": 9,
+      "gabarito_respondido_errado": 10,
       "gabarito_recusado_que_acertaria": 0,
       "fora_respondida": 3,
-      "total": 12
+      "total": 13
     },
     {
       "limiar": 0.02,
-      "gabarito_respondido_errado": 8,
+      "gabarito_respondido_errado": 10,
       "gabarito_recusado_que_acertaria": 0,
-      "fora_respondida": 0,
-      "total": 8
+      "fora_respondida": 1,
+      "total": 11
     },
     {
       "limiar": 0.05,
-      "gabarito_respondido_errado": 8,
+      "gabarito_respondido_errado": 9,
       "gabarito_recusado_que_acertaria": 1,
       "fora_respondida": 0,
-      "total": 9
+      "total": 10
     },
     {
       "limiar": 0.1,
-      "gabarito_respondido_errado": 8,
+      "gabarito_respondido_errado": 9,
       "gabarito_recusado_que_acertaria": 1,
       "fora_respondida": 0,
-      "total": 9
+      "total": 10
     },
     {
       "limiar": 0.2,
-      "gabarito_respondido_errado": 8,
-      "gabarito_recusado_que_acertaria": 4,
+      "gabarito_respondido_errado": 9,
+      "gabarito_recusado_que_acertaria": 3,
       "fora_respondida": 0,
       "total": 12
     },
     {
       "limiar": 0.3,
-      "gabarito_respondido_errado": 8,
-      "gabarito_recusado_que_acertaria": 5,
+      "gabarito_respondido_errado": 9,
+      "gabarito_recusado_que_acertaria": 4,
       "fora_respondida": 0,
       "total": 13
     },
     {
       "limiar": 0.5,
       "gabarito_respondido_errado": 7,
+      "gabarito_recusado_que_acertaria": 5,
+      "fora_respondida": 0,
+      "total": 12
+    },
+    {
+      "limiar": 0.7,
+      "gabarito_respondido_errado": 7,
       "gabarito_recusado_que_acertaria": 6,
       "fora_respondida": 0,
       "total": 13
     },
     {
-      "limiar": 0.7,
-      "gabarito_respondido_errado": 7,
-      "gabarito_recusado_que_acertaria": 7,
-      "fora_respondida": 0,
-      "total": 14
-    },
-    {
       "limiar": 0.9,
       "gabarito_respondido_errado": 5,
-      "gabarito_recusado_que_acertaria": 7,
+      "gabarito_recusado_que_acertaria": 6,
       "fora_respondida": 0,
-      "total": 12
+      "total": 11
     }
   ]
 }

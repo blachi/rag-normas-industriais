@@ -236,8 +236,15 @@
         "10.2.9.3"
       ],
       "norma": "NR-10",
-      "nota": 0.016361011192202568,
+      "nota": 0.043568097054958344,
       "candidatos": [
+        {
+          "item": "10.12.5",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.043568097054958344
+        },
         {
           "item": "10.7.7.1",
           "norma": "NR-10 (2026)",
@@ -246,25 +253,25 @@
           "nota": 0.016361011192202568
         },
         {
-          "item": "Anexo III",
+          "item": "Anexo III, item 9.3",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
-          "nota": 0.007849561981856823
+          "nota": 0.004425849765539169
         },
         {
-          "item": "Anexo III",
+          "item": "Anexo III, item 9.3",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
-          "nota": 0.0052618831396102905
+          "nota": 0.0038645565509796143
         },
         {
-          "item": "Anexo III",
+          "item": "Anexo III, item 9.3",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
-          "nota": 0.0032020951621234417
+          "nota": 0.0038409526459872723
         },
         {
           "item": "Anexo III",
@@ -274,18 +281,11 @@
           "nota": 0.0030951090157032013
         },
         {
-          "item": "Anexo III",
+          "item": "Anexo III, item 9.3",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
-          "nota": 0.0030004435684531927
-        },
-        {
-          "item": "Anexo III",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.00284587312489748
+          "nota": 0.0021489125210791826
         },
         {
           "item": "10.5.3",
@@ -302,18 +302,18 @@
           "nota": 0.0017448514699935913
         },
         {
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.001628578407689929
+        },
+        {
           "item": "10.4.8",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
           "nota": 0.001035233261063695
-        },
-        {
-          "item": "12.4.3",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.0008889539749361575
         },
         {
           "item": "10.8.4",
@@ -483,13 +483,6 @@
           "nota": 0.021190034225583076
         },
         {
-          "item": "Anexo III",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.01837112568318844
-        },
-        {
           "item": "10.7.2",
           "norma": "NR-10",
           "documento": "nr-10-atualizada-2019-1.pdf",
@@ -572,6 +565,13 @@
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
           "nota": 0.0020122018177062273
+        },
+        {
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0019472778076305985
         }
       ]
     },
@@ -912,11 +912,11 @@
           "nota": 0.0012458248529583216
         },
         {
-          "item": "10.8.4.2",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "item": "Anexo I, item 2.1.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
-          "nota": 0.0005808862042613328
+          "nota": 0.0009907797211781144
         }
       ]
     },
@@ -978,6 +978,13 @@
           "nota": 0.004457293543964624
         },
         {
+          "item": "Anexo I, item 2.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0015773809282109141
+        },
+        {
           "item": "10.9.8",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
@@ -985,11 +992,18 @@
           "nota": 0.0015081972815096378
         },
         {
-          "item": "Anexo III",
+          "item": "Anexo V, item 4.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0013468656688928604
+        },
+        {
+          "item": "Anexo III, item 1.2",
           "norma": "NR-33",
           "documento": "nr-33-atualizada-2022-_retificada.pdf",
           "revogado": false,
-          "nota": 0.0010439840843901038
+          "nota": 0.0012413675431162119
         },
         {
           "item": "10.9.10",
@@ -999,18 +1013,11 @@
           "nota": 0.0009789528558030725
         },
         {
-          "item": "Anexo III",
+          "item": "Anexo III, item 2.1",
           "norma": "NR-33",
           "documento": "nr-33-atualizada-2022-_retificada.pdf",
           "revogado": false,
-          "nota": 0.0009469493525102735
-        },
-        {
-          "item": "Anexo I",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.000503287126775831
+          "nota": 0.0006365848239511251
         },
         {
           "item": "33.5.9",
@@ -1020,18 +1027,11 @@
           "nota": 0.00016633003542665392
         },
         {
-          "item": "35.3.2",
+          "item": "Anexo I, item 2.1",
           "norma": "NR-35 (manual)",
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
-          "nota": 8.709591202205047e-05
-        },
-        {
-          "item": "Anexo I",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 3.602895594667643e-05
+          "nota": 3.942870898754336e-05
         }
       ]
     },
@@ -1114,18 +1114,18 @@
           "nota": 0.02041672170162201
         },
         {
-          "item": "10.12.9",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.018121598288416862
-        },
-        {
           "item": "10.11.2",
           "norma": "NR-10",
           "documento": "nr-10-atualizada-2019-1.pdf",
           "revogado": false,
           "nota": 0.015051024965941906
+        },
+        {
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.014055734500288963
         },
         {
           "item": "10.7.6",
@@ -1180,11 +1180,18 @@
           "nota": 0.4121454954147339
         },
         {
-          "item": "Anexo III",
+          "item": "Anexo III, item 9.3",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
-          "nota": 0.16925792396068573
+          "nota": 0.1637706607580185
+        },
+        {
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.16144497692584991
         },
         {
           "item": "10.5.4",
@@ -1229,18 +1236,11 @@
           "nota": 0.00436764769256115
         },
         {
-          "item": "Anexo III",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
-          "nota": 0.0014394987374544144
-        },
-        {
-          "item": "Anexo XII",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.0007846069056540728
+          "nota": 0.0025236187502741814
         },
         {
           "item": "12.2.1.2",
@@ -1257,11 +1257,11 @@
           "nota": 0.00045052982750348747
         },
         {
-          "item": "12.2",
+          "item": "Anexo XI, item 6.4",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.0003576062445063144
+          "nota": 0.00027702233637683094
         }
       ]
     },
@@ -1330,11 +1330,18 @@
           "nota": 0.038280609995126724
         },
         {
-          "item": "10.7.3",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "item": "Anexo XII, item 4.32",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.018980273976922035
+          "nota": 0.017818421125411987
+        },
+        {
+          "item": "Anexo I, item 5.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.017700007185339928
         },
         {
           "item": "12.8.7.1",
@@ -1342,13 +1349,6 @@
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
           "nota": 0.012151645496487617
-        },
-        {
-          "item": "Anexo I",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.009636064060032368
         },
         {
           "item": "10.12.2",
@@ -1424,11 +1424,18 @@
           "nota": 0.7969763278961182
         },
         {
-          "item": "10.14.1.1",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "item": "Anexo VI, item 1.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.6427446007728577
+          "nota": 0.7357072234153748
+        },
+        {
+          "item": "Anexo VII, item 1.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.5505572557449341
         },
         {
           "item": "Glossário: Baixa Tensão (BT)",
@@ -1466,13 +1473,6 @@
           "nota": 0.009954551234841347
         },
         {
-          "item": "10.4.5",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.008579147979617119
-        },
-        {
           "item": "12.3.7",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
@@ -1480,18 +1480,18 @@
           "nota": 0.008097448386251926
         },
         {
-          "item": "Glossário: Média Tensão (MT)",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.005461592227220535
-        },
-        {
           "item": "Glossário: Alta Tensão (AT)",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
           "nota": 0.003595477668568492
+        },
+        {
+          "item": "Anexo VIII, item 2.4.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.002752485452219844
         }
       ]
     },
@@ -1633,18 +1633,18 @@
           "nota": 0.21442851424217224
         },
         {
-          "item": "12.1.7",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.2030542939901352
-        },
-        {
           "item": "12.16.9",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
           "nota": 0.045321375131607056
+        },
+        {
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.031523000448942184
         },
         {
           "item": "12.14.3.1",
@@ -1659,13 +1659,6 @@
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
           "nota": 0.028905833140015602
-        },
-        {
-          "item": "Anexo III",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.028273290023207664
         },
         {
           "item": "10.8.3",
@@ -1696,11 +1689,25 @@
           "nota": 0.01193912886083126
         },
         {
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.011603124439716339
+        },
+        {
           "item": "12.9.1",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
           "nota": 0.006156276445835829
+        },
+        {
+          "item": "Anexo XI, item 13.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00480559840798378
         },
         {
           "item": "10.2.9.3",
@@ -1715,13 +1722,6 @@
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
           "nota": 0.0015948693035170436
-        },
-        {
-          "item": "10.15.4",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.0011723589850589633
         }
       ]
     },
@@ -2093,11 +2093,11 @@
           "nota": 0.8068181872367859
         },
         {
-          "item": "Anexo III",
+          "item": "Anexo III, item 9.3",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
-          "nota": 0.29202207922935486
+          "nota": 0.5931736826896667
         },
         {
           "item": "35.3.2",
@@ -2121,18 +2121,18 @@
           "nota": 0.17712479829788208
         },
         {
-          "item": "Anexo III",
+          "item": "Anexo III, item 9.3",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
-          "nota": 0.13237422704696655
+          "nota": 0.10563820600509644
         },
         {
-          "item": "Anexo III",
+          "item": "Anexo III, item 9.3",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
-          "nota": 0.07088692486286163
+          "nota": 0.09340496361255646
         },
         {
           "item": "10.2.1",
@@ -2257,18 +2257,11 @@
           "nota": 0.00020318797032814473
         },
         {
-          "item": "10.7.9",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "item": "Anexo XII, item 4.42",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.00012622048961929977
-        },
-        {
-          "item": "35.1.1",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.0001172612319351174
+          "nota": 0.0001497007324360311
         },
         {
           "item": "35.5.5.1.1",
@@ -2276,6 +2269,13 @@
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
           "nota": 9.337039227830246e-05
+        },
+        {
+          "item": "Anexo XI, item 15.25.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 7.939466740936041e-05
         },
         {
           "item": "10.8.4",
@@ -2292,11 +2292,11 @@
           "nota": 4.804909258382395e-05
         },
         {
-          "item": "Anexo II",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "item": "Anexo VIII, item 2.5.4",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 3.189783456036821e-05
+          "nota": 2.677589509403333e-05
         }
       ]
     },
@@ -2379,18 +2379,11 @@
           "nota": 0.002648788271471858
         },
         {
-          "item": "10.8.6",
-          "norma": "NR-10",
-          "documento": "nr-10-atualizada-2019-1.pdf",
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
-          "nota": 0.002596046542748809
-        },
-        {
-          "item": "10.8.8",
-          "norma": "NR-10",
-          "documento": "nr-10-atualizada-2019-1.pdf",
-          "revogado": false,
-          "nota": 0.0023742658086121082
+          "nota": 0.0018986632348969579
         },
         {
           "item": "10.4.8",
@@ -2412,6 +2405,13 @@
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
           "nota": 0.0008763023070059717
+        },
+        {
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0002360597427468747
         }
       ]
     },
@@ -2696,11 +2696,11 @@
           "nota": 0.7598029971122742
         },
         {
-          "item": "Anexo III",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "item": "Anexo XII, item 3.5",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.5072545409202576
+          "nota": 0.5458620190620422
         },
         {
           "item": "10.6.1",
@@ -2717,11 +2717,11 @@
           "nota": 0.27552881836891174
         },
         {
-          "item": "Anexo XII",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
+          "item": "10.7.2",
+          "norma": "NR-10",
+          "documento": "nr-10-atualizada-2019-1.pdf",
           "revogado": false,
-          "nota": 0.24028635025024414
+          "nota": 0.10669197887182236
         },
         {
           "item": "10.14.3",
@@ -2776,18 +2776,39 @@
           "nota": 0.17861312627792358
         },
         {
-          "item": "Anexo XII",
+          "item": "Anexo XII, item 2.6",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.09361613541841507
+          "nota": 0.08358621597290039
         },
         {
-          "item": "Anexo XII",
+          "item": "Anexo XII, item 3.5",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.021427569910883904
+          "nota": 0.07859726995229721
+        },
+        {
+          "item": "Anexo XII, item 3.4",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.03417734429240227
+        },
+        {
+          "item": "Anexo XII, item 2.5",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.03322848305106163
+        },
+        {
+          "item": "Anexo XII, item 2.4",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.02278432995080948
         },
         {
           "item": "10.6.5",
@@ -2797,32 +2818,25 @@
           "nota": 0.01859041303396225
         },
         {
-          "item": "10.5.2",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.004594421945512295
-        },
-        {
-          "item": "Anexo III",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.0036190846003592014
-        },
-        {
-          "item": "10.14.2",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.0032637459225952625
-        },
-        {
-          "item": "Anexo XII",
+          "item": "Anexo XII, item 3.3",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.002034363802522421
+          "nota": 0.009582895785570145
+        },
+        {
+          "item": "Anexo XII, item 4.41",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.006995678413659334
+        },
+        {
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.0033430559560656548
         },
         {
           "item": "10.5.4",
@@ -2830,20 +2844,6 @@
           "documento": "nr-10-atualizada-2019-1.pdf",
           "revogado": false,
           "nota": 0.001206273678690195
-        },
-        {
-          "item": "10.13.3",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.001038837363012135
-        },
-        {
-          "item": "10.6.2",
-          "norma": "NR-10",
-          "documento": "nr-10-atualizada-2019-1.pdf",
-          "revogado": false,
-          "nota": 0.001005088328383863
         },
         {
           "item": "10.14.1.2",
@@ -2860,18 +2860,18 @@
           "nota": 0.0005365839460864663
         },
         {
+          "item": "Anexo III, item 9.3",
+          "norma": "NR-10 (2026)",
+          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "revogado": false,
+          "nota": 0.00043065520003437996
+        },
+        {
           "item": "33.5.14.1",
           "norma": "NR-33",
           "documento": "nr-33-atualizada-2022-_retificada.pdf",
           "revogado": false,
           "nota": 0.00016701278218533844
-        },
-        {
-          "item": "10.8.4",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 5.1282928325235844e-05
         }
       ]
     },
@@ -2881,14 +2881,14 @@
         "12.6.1"
       ],
       "norma": "NR-12",
-      "nota": 0.8658940196037292,
+      "nota": 0.7733424305915833,
       "candidatos": [
         {
-          "item": "Anexo IX",
+          "item": "Anexo VIII, item 2.7.2",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.8658940196037292
+          "nota": 0.7733424305915833
         },
         {
           "item": "12.6.1",
@@ -2898,95 +2898,95 @@
           "nota": 0.7522547841072083
         },
         {
-          "item": "12.5.1.1",
+          "item": "Anexo VI, item 8.3",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.5368252396583557
+          "nota": 0.7454935908317566
         },
         {
-          "item": "12.4.3",
+          "item": "Anexo VI, item 9.4",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.5067064166069031
+          "nota": 0.5816693902015686
         },
         {
-          "item": "12.5.1.1",
+          "item": "Anexo VI, item 6.3",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.42265942692756653
+          "nota": 0.5664494633674622
         },
         {
-          "item": "12.5.1.1",
+          "item": "Anexo X, item 17.3",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.3715468645095825
+          "nota": 0.5189968943595886
         },
         {
-          "item": "Anexo VI",
+          "item": "Anexo VI, item 2.7",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.2909865975379944
+          "nota": 0.4595094621181488
         },
         {
-          "item": "12.5.1.1",
+          "item": "Anexo VI, item 3.7",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.2555363178253174
+          "nota": 0.4528297781944275
         },
         {
-          "item": "12.5.5",
+          "item": "Anexo VI, item 7.3",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.24314585328102112
+          "nota": 0.39188048243522644
         },
         {
-          "item": "12.6.1.2",
+          "item": "Anexo IX, item 1.2.6.3.5",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.1631973534822464
+          "nota": 0.3781687617301941
         },
         {
-          "item": "12.4.8",
+          "item": "Anexo IX, item 1.2.6.3.4",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.1337447315454483
+          "nota": 0.3621786832809448
         },
         {
-          "item": "12.4.3",
+          "item": "Anexo VIII, item 2.7",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.09228473901748657
+          "nota": 0.2783512473106384
         },
         {
-          "item": "12.6.3",
+          "item": "Anexo VII, item 2.8",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.04659954085946083
+          "nota": 0.27614063024520874
         },
         {
-          "item": "12.6.8",
+          "item": "Anexo X, item 24.2",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.009036652743816376
+          "nota": 0.13506554067134857
         },
         {
-          "item": "10.12.4",
-          "norma": "NR-10",
-          "documento": "nr-10-atualizada-2019-1.pdf",
+          "item": "Anexo VIII, item 2.7.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.0007942295633256435
+          "nota": 0.12193773686885834
         }
       ]
     },
@@ -3006,6 +3006,13 @@
           "nota": 0.9822673201560974
         },
         {
+          "item": "Anexo XI, item 14.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.943124532699585
+        },
+        {
           "item": "12.13.4",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
@@ -3013,11 +3020,18 @@
           "nota": 0.9422615766525269
         },
         {
-          "item": "12.2",
+          "item": "Anexo XI, item 13.1",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.8428084254264832
+          "nota": 0.9089269638061523
+        },
+        {
+          "item": "Anexo V, item 1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.48178571462631226
         },
         {
           "item": "12.13.5.3",
@@ -3041,18 +3055,18 @@
           "nota": 0.39503902196884155
         },
         {
-          "item": "Anexo V",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.2631821036338806
-        },
-        {
           "item": "12.13.5",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
           "nota": 0.20321401953697205
+        },
+        {
+          "item": "Anexo X, item 1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.13791300356388092
         },
         {
           "item": "12.12.7",
@@ -3069,18 +3083,11 @@
           "nota": 0.065513975918293
         },
         {
-          "item": "12.15.1.2",
+          "item": "Anexo X, item 18.3",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.0021667052060365677
-        },
-        {
-          "item": "12.4.8",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.001999110681936145
+          "nota": 0.010816872119903564
         },
         {
           "item": "12.11.5",
@@ -3095,13 +3102,6 @@
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
           "nota": 0.0016347955679520965
-        },
-        {
-          "item": "12.1.3",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.0010673434007912874
         }
       ]
     },
@@ -3111,8 +3111,15 @@
         "12.16.3"
       ],
       "norma": "NR-12",
-      "nota": 0.005968470126390457,
+      "nota": 0.007722406182438135,
       "candidatos": [
+        {
+          "item": "Anexo V, item 4.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.007722406182438135
+        },
         {
           "item": "35.3.3",
           "norma": "NR-35 (manual)",
@@ -3163,6 +3170,13 @@
           "nota": 0.002354230498895049
         },
         {
+          "item": "Anexo III, item 1.2",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.002116704359650612
+        },
+        {
           "item": "12.1.10",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
@@ -3191,25 +3205,11 @@
           "nota": 0.000980303855612874
         },
         {
-          "item": "Anexo III",
-          "norma": "NR-33",
-          "documento": "nr-33-atualizada-2022-_retificada.pdf",
-          "revogado": false,
-          "nota": 0.0009485942428000271
-        },
-        {
           "item": "10.9.11.1",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
           "revogado": false,
           "nota": 0.0008358143386431038
-        },
-        {
-          "item": "10.9.2",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
-          "revogado": false,
-          "nota": 0.0005955986562184989
         },
         {
           "item": "10.9.7",
@@ -3257,18 +3257,18 @@
           "nota": 0.039560262113809586
         },
         {
+          "item": "Anexo V, item 4.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.029671208932995796
+        },
+        {
           "item": "12.11.3",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
           "nota": 0.019919350743293762
-        },
-        {
-          "item": "12.2",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.012609504163265228
         },
         {
           "item": "12.11.2.1",
@@ -3306,6 +3306,13 @@
           "nota": 0.00458654947578907
         },
         {
+          "item": "Anexo XI, item 14.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.003667194861918688
+        },
+        {
           "item": "12.13.4",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
@@ -3313,11 +3320,11 @@
           "nota": 0.0034226274583488703
         },
         {
-          "item": "Anexo III",
-          "norma": "NR-10 (2026)",
-          "documento": "portaria-mte-no-737-nova-nr-10.pdf",
+          "item": "Anexo X, item 1.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.001757887308485806
+          "nota": 0.001330740051344037
         },
         {
           "item": "10.8.8.2",
@@ -3325,13 +3332,6 @@
           "documento": "nr-10-atualizada-2019-1.pdf",
           "revogado": false,
           "nota": 0.0006446267361752689
-        },
-        {
-          "item": "12.13.1",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.000494283449370414
         }
       ]
     },
@@ -3341,56 +3341,35 @@
         "12.2.1"
       ],
       "norma": "NR-12",
-      "nota": 0.003971937578171492,
+      "nota": 0.0011690770043060184,
       "candidatos": [
         {
-          "item": "12.7.8.1",
+          "item": "Anexo X, item 1.1",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.003971937578171492
+          "nota": 0.0011690770043060184
         },
         {
-          "item": "12.4.3",
+          "item": "Anexo IX, item 1.2.8.2",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.001216743141412735
+          "nota": 0.0006672654999420047
         },
         {
-          "item": "Anexo IX",
+          "item": "Anexo X, item 31.3",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.001152569311670959
+          "nota": 0.0005862988764420152
         },
         {
-          "item": "12.4.3",
+          "item": "Anexo IX, item 1.2.7.2",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.0007029243279248476
-        },
-        {
-          "item": "12.4.3",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.0005942409043200314
-        },
-        {
-          "item": "Anexo IX",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.0004915906465612352
-        },
-        {
-          "item": "12.1",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.0004706931358668953
+          "nota": 0.00046381805441342294
         },
         {
           "item": "12.15.1.1",
@@ -3400,46 +3379,32 @@
           "nota": 0.0004563411639537662
         },
         {
-          "item": "12.7.8.1",
+          "item": "Anexo X, item 5.6",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.00038982604746706784
+          "nota": 0.00035656997351907194
         },
         {
-          "item": "12.6.1",
+          "item": "Anexo X, item 7.1",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.0003499104641377926
+          "nota": 0.0002810500154737383
         },
         {
-          "item": "Anexo IX",
+          "item": "Anexo X, item 13.1",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.00033792786416597664
+          "nota": 0.00027670187409967184
         },
         {
-          "item": "12.1.4",
+          "item": "Anexo IX, item 1.2.7.3",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.00030639467877335846
-        },
-        {
-          "item": "12.5.1.1",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.0002448819577693939
-        },
-        {
-          "item": "12.5.1.1",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.00022983124654274434
+          "nota": 0.0002015146310441196
         },
         {
           "item": "10.6.2",
@@ -3447,6 +3412,41 @@
           "documento": "nr-10-atualizada-2019-1.pdf",
           "revogado": false,
           "nota": 0.00018252787413075566
+        },
+        {
+          "item": "Anexo VIII, item 2.8.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.00017183629097416997
+        },
+        {
+          "item": "Anexo X, item 4.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0001657022221479565
+        },
+        {
+          "item": "Anexo X, item 30.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.0001465906825615093
+        },
+        {
+          "item": "Anexo X, item 3.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 4.381878170534037e-05
+        },
+        {
+          "item": "Anexo VI, item 7.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 3.326541991555132e-05
         }
       ]
     },
@@ -3581,11 +3581,11 @@
           "nota": 0.0015989580424502492
         },
         {
-          "item": "Anexo XII",
+          "item": "Anexo XII, item 7.3",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.0009519214509055018
+          "nota": 0.0012708826689049602
         },
         {
           "item": "35.4.7",
@@ -3593,13 +3593,6 @@
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
           "nota": 0.0005303141078911722
-        },
-        {
-          "item": "Anexo XII",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.00023572798818349838
         },
         {
           "item": "10.7.2.3",
@@ -3630,27 +3623,6 @@
           "nota": 0.00013492611469700933
         },
         {
-          "item": "12.8.9.2",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 8.350097050424665e-05
-        },
-        {
-          "item": "12.16.10",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 8.261351467808709e-05
-        },
-        {
-          "item": "12.11.3.1",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 8.175816765287891e-05
-        },
-        {
           "item": "12.2.8.1",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
@@ -3658,11 +3630,32 @@
           "nota": 7.510612340411171e-05
         },
         {
-          "item": "Anexo XII",
+          "item": "Anexo XII, item 4.36",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 5.694314313586801e-05
+          "nota": 7.454876322299242e-05
+        },
+        {
+          "item": "Anexo XII, item 7.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 5.0509570428403094e-05
+        },
+        {
+          "item": "Anexo XII, item 4.26",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 4.8721645725890994e-05
+        },
+        {
+          "item": "Anexo I, item 2.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 4.548895958578214e-05
         },
         {
           "item": "12.14.2.1",
@@ -3672,11 +3665,18 @@
           "nota": 3.96738359995652e-05
         },
         {
-          "item": "Anexo I",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "item": "Anexo XII, item 4.35",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 3.5661450965562835e-05
+          "nota": 2.966923602798488e-05
+        },
+        {
+          "item": "Anexo XII, item 4.10",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 2.5906239898176864e-05
         }
       ]
     },
@@ -3832,13 +3832,6 @@
           "nota": 0.3862060606479645
         },
         {
-          "item": "Anexo III",
-          "norma": "NR-33",
-          "documento": "nr-33-atualizada-2022-_retificada.pdf",
-          "revogado": false,
-          "nota": 0.3421363830566406
-        },
-        {
           "item": "33.5.6",
           "norma": "NR-33",
           "documento": "nr-33-atualizada-2022-_retificada.pdf",
@@ -3893,6 +3886,13 @@
           "documento": "nr-33-atualizada-2022-_retificada.pdf",
           "revogado": false,
           "nota": 0.03301246091723442
+        },
+        {
+          "item": "33.5.1",
+          "norma": "NR-33",
+          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "revogado": false,
+          "nota": 0.010918047279119492
         },
         {
           "item": "33.5.3",
@@ -3961,11 +3961,11 @@
           "nota": 0.16489002108573914
         },
         {
-          "item": "33.2.2.2",
+          "item": "33.4.3",
           "norma": "NR-33",
           "documento": "nr-33-atualizada-2022-_retificada.pdf",
           "revogado": false,
-          "nota": 0.15466150641441345
+          "nota": 0.15916872024536133
         },
         {
           "item": "33.5.10",
@@ -4031,14 +4031,14 @@
         "35.1.2"
       ],
       "norma": "NR-35 (manual)",
-      "nota": 0.9930100440979004,
+      "nota": 0.9931694269180298,
       "candidatos": [
         {
           "item": "35.1.2",
           "norma": "NR-35 (manual)",
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
-          "nota": 0.9930100440979004
+          "nota": 0.9931694269180298
         },
         {
           "item": "Anexo XII",
@@ -4055,18 +4055,18 @@
           "nota": 0.057820938527584076
         },
         {
-          "item": "12.2",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.019284037873148918
-        },
-        {
           "item": "35.3.1",
           "norma": "NR-35 (manual)",
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
           "nota": 0.01845197193324566
+        },
+        {
+          "item": "Anexo XI, item 15.3",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.01825476437807083
         },
         {
           "item": "35.3.2",
@@ -4076,18 +4076,25 @@
           "nota": 0.01747487485408783
         },
         {
-          "item": "12.2",
+          "item": "Anexo XI, item 15.4",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.01411456149071455
+          "nota": 0.016322387382388115
         },
         {
-          "item": "12.1",
+          "item": "Anexo II, item 35.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.011556155979633331
+        },
+        {
+          "item": "Anexo III, item 11.1",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.012358604930341244
+          "nota": 0.011519432067871094
         },
         {
           "item": "35.4.1.2.1",
@@ -4097,11 +4104,11 @@
           "nota": 0.011174416169524193
         },
         {
-          "item": "35.1",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "item": "Anexo III, item 12.1",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.011129551567137241
+          "nota": 0.010995432734489441
         },
         {
           "item": "35.2.1",
@@ -4123,13 +4130,6 @@
           "documento": "nr-10-atualizada-2019-1.pdf",
           "revogado": false,
           "nota": 0.0034329271875321865
-        },
-        {
-          "item": "10.7.4",
-          "norma": "NR-10",
-          "documento": "nr-10-atualizada-2019-1.pdf",
-          "revogado": false,
-          "nota": 0.003256565658375621
         },
         {
           "item": "35.3",
@@ -4156,11 +4156,11 @@
           "nota": 0.9132921099662781
         },
         {
-          "item": "Anexo I",
+          "item": "Anexo I, item 2.1.1",
           "norma": "NR-35 (manual)",
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
-          "nota": 0.3005233108997345
+          "nota": 0.716500461101532
         },
         {
           "item": "35.3.4",
@@ -4233,18 +4233,18 @@
           "nota": 0.003240737831220031
         },
         {
+          "item": "Anexo II, item 35.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0021523362956941128
+        },
+        {
           "item": "35.4.1.2.1",
           "norma": "NR-35 (manual)",
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
           "nota": 0.0020967237651348114
-        },
-        {
-          "item": "35.1",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.0020668336655944586
         },
         {
           "item": "10.7.1",
@@ -4261,21 +4261,21 @@
         "35.4.5"
       ],
       "norma": "NR-35 (manual)",
-      "nota": 0.16180521249771118,
+      "nota": 0.33961746096611023,
       "candidatos": [
+        {
+          "item": "Anexo I, item 1.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.33961746096611023
+        },
         {
           "item": "35.4.5",
           "norma": "NR-35 (manual)",
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
           "nota": 0.16180521249771118
-        },
-        {
-          "item": "Anexo I",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.13357941806316376
         },
         {
           "item": "35.5.8.1",
@@ -4290,13 +4290,6 @@
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
           "nota": 0.048372626304626465
-        },
-        {
-          "item": "35.1.2",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.03695894032716751
         },
         {
           "item": "35.4.5.1",
@@ -4320,6 +4313,20 @@
           "nota": 0.021935738623142242
         },
         {
+          "item": "Anexo XII, item 4.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.018551312386989594
+        },
+        {
+          "item": "Anexo XII, item 4.11",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.017573589459061623
+        },
+        {
           "item": "10.7.3",
           "norma": "NR-10 (2026)",
           "documento": "portaria-mte-no-737-nova-nr-10.pdf",
@@ -4327,11 +4334,18 @@
           "nota": 0.01585710607469082
         },
         {
-          "item": "Anexo I",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "item": "Anexo XII, item 4.12",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.006728009320795536
+          "nota": 0.01065463200211525
+        },
+        {
+          "item": "Anexo XII, item 4.25",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.008486081846058369
         },
         {
           "item": "35.2.1",
@@ -4348,25 +4362,11 @@
           "nota": 0.004374433774501085
         },
         {
-          "item": "Anexo I",
+          "item": "Anexo I, item 2.1",
           "norma": "NR-35 (manual)",
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
-          "nota": 0.002996289636939764
-        },
-        {
-          "item": "33.5.15.1",
-          "norma": "NR-33",
-          "documento": "nr-33-atualizada-2022-_retificada.pdf",
-          "revogado": false,
-          "nota": 0.0010728406487032771
-        },
-        {
-          "item": "35.4.5.1",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.0007227568421512842
+          "nota": 0.0028287165332585573
         }
       ]
     },
@@ -4376,14 +4376,14 @@
         "35.5.1"
       ],
       "norma": "NR-35 (manual)",
-      "nota": 0.12240716069936752,
+      "nota": 0.10012714564800262,
       "candidatos": [
         {
           "item": "Anexo II",
-          "norma": "NR-33",
-          "documento": "nr-33-atualizada-2022-_retificada.pdf",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
-          "nota": 0.12240716069936752
+          "nota": 0.10012714564800262
         },
         {
           "item": "35.4.2",
@@ -4393,18 +4393,18 @@
           "nota": 0.03402894735336304
         },
         {
+          "item": "Anexo XII, item 4.28",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.009149434976279736
+        },
+        {
           "item": "Referências",
           "norma": "NR-35 (manual)",
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
           "nota": 0.007884087972342968
-        },
-        {
-          "item": "Anexo II",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.004630561918020248
         },
         {
           "item": "10.11.3",
@@ -4414,18 +4414,18 @@
           "nota": 0.004460784140974283
         },
         {
+          "item": "Anexo X, item 5.2",
+          "norma": "NR-12",
+          "documento": "nr-12-atualizada-2022-1.pdf",
+          "revogado": false,
+          "nota": 0.004121382255107164
+        },
+        {
           "item": "10.2.9.2",
           "norma": "NR-10",
           "documento": "nr-10-atualizada-2019-1.pdf",
           "revogado": false,
           "nota": 0.00391697371378541
-        },
-        {
-          "item": "33.5.13.3.1",
-          "norma": "NR-33",
-          "documento": "nr-33-atualizada-2022-_retificada.pdf",
-          "revogado": false,
-          "nota": 0.003790434682741761
         },
         {
           "item": "Glossário: Cinturão de segurança tipo paraquedista",
@@ -4435,25 +4435,11 @@
           "nota": 0.002963121747598052
         },
         {
-          "item": "35.1.3",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.0027138986624777317
-        },
-        {
           "item": "35.4.5.1",
           "norma": "NR-35 (manual)",
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
           "nota": 0.002339133992791176
-        },
-        {
-          "item": "35.5.9",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.0016972324810922146
         },
         {
           "item": "12.8.6.2",
@@ -4463,6 +4449,27 @@
           "nota": 0.0015678403433412313
         },
         {
+          "item": "Anexo I, item 3.4.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0012066909112036228
+        },
+        {
+          "item": "Anexo II",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0008977943798527122
+        },
+        {
+          "item": "Anexo I, item 3.3",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.0008949656621553004
+        },
+        {
           "item": "Glossário: Vida útil de máquina e equipamento",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
@@ -4470,18 +4477,11 @@
           "nota": 0.0008386655827052891
         },
         {
-          "item": "Anexo XII",
+          "item": "Anexo XII, item 2.16",
           "norma": "NR-12",
           "documento": "nr-12-atualizada-2022-1.pdf",
           "revogado": false,
-          "nota": 0.000775080407038331
-        },
-        {
-          "item": "Anexo XII",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.0004296677652746439
+          "nota": 2.6447327400092036e-05
         }
       ]
     },
@@ -4508,18 +4508,18 @@
           "nota": 0.9921535849571228
         },
         {
+          "item": "Anexo I, item 4.1",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.982047438621521
+        },
+        {
           "item": "35.6.1",
           "norma": "NR-35 (manual)",
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
           "nota": 0.9759233593940735
-        },
-        {
-          "item": "Anexo I",
-          "norma": "NR-35 (manual)",
-          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
-          "revogado": false,
-          "nota": 0.9320337772369385
         },
         {
           "item": "35.3.2",
@@ -4548,6 +4548,13 @@
           "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
           "revogado": false,
           "nota": 0.3033824563026428
+        },
+        {
+          "item": "35.3.2",
+          "norma": "NR-35 (manual)",
+          "documento": "nr-35_manual_consolidado_da_nr_35.pdf",
+          "revogado": false,
+          "nota": 0.22284060716629028
         },
         {
           "item": "33.5.21.3",
@@ -4590,13 +4597,6 @@
           "documento": "nr-33-atualizada-2022-_retificada.pdf",
           "revogado": false,
           "nota": 0.043702516704797745
-        },
-        {
-          "item": "Anexo III",
-          "norma": "NR-12",
-          "documento": "nr-12-atualizada-2022-1.pdf",
-          "revogado": false,
-          "nota": 0.0011056956136599183
         }
       ]
     }
@@ -4604,11 +4604,11 @@
   "calibracao": [
     {
       "pergunta": "Qual a receita de bolo de cenoura?",
-      "nota": 0.00011205700866412371
+      "nota": 0.00013908262189943343
     },
     {
       "pergunta": "Quanto custa uma passagem para Salvador?",
-      "nota": 1.7482807379565202e-05
+      "nota": 1.737680759106297e-05
     },
     {
       "pergunta": "Quem ganhou a Copa de 2002?",
@@ -4628,11 +4628,11 @@
     },
     {
       "pergunta": "Qual a capital da Austrália?",
-      "nota": 1.680729110375978e-05
+      "nota": 0.00016345520270988345
     },
     {
       "pergunta": "Como trocar o óleo do carro?",
-      "nota": 0.00011578810517676175
+      "nota": 3.9145135815488175e-05
     },
     {
       "pergunta": "Quanto tempo dura a garantia de um produto?",
@@ -4640,7 +4640,7 @@
     },
     {
       "pergunta": "Como abrir uma conta no banco?",
-      "nota": 2.145184225810226e-05
+      "nota": 0.00018945873307529837
     },
     {
       "pergunta": "Qual o horário do jogo do Corinthians?",
@@ -4648,11 +4648,11 @@
     },
     {
       "pergunta": "Como cancelar uma assinatura de streaming?",
-      "nota": 3.173323784722015e-05
+      "nota": 2.410463275737129e-05
     },
     {
       "pergunta": "Quais vacinas uma criança precisa tomar?",
-      "nota": 0.0006332641933113337
+      "nota": 8.82488748175092e-05
     },
     {
       "pergunta": "Como funciona o décimo terceiro salário?",
@@ -4660,15 +4660,15 @@
     },
     {
       "pergunta": "Qual a melhor ração para cachorro?",
-      "nota": 2.291860982950311e-05
+      "nota": 4.9286951252724975e-05
     },
     {
       "pergunta": "Como pedir reembolso de uma compra online?",
-      "nota": 2.5866862415568903e-05
+      "nota": 5.451259858091362e-05
     },
     {
       "pergunta": "Quantas horas por semana é a jornada de trabalho?",
-      "nota": 0.013972912915050983
+      "nota": 0.02604992873966694
     },
     {
       "pergunta": "Como funciona o vale-transporte?",
@@ -4686,19 +4686,19 @@
   "teste": [
     {
       "pergunta": "Qual o prazo para entregar a declaração do imposto de renda?",
-      "nota": 0.0019338156562298536
+      "nota": 0.0010515718022361398
     },
     {
       "pergunta": "Como faço para trocar a senha do Wi-Fi?",
-      "nota": 4.208122845739126e-05
+      "nota": 0.00011819737119367346
     },
     {
       "pergunta": "Qual a melhor época para plantar tomate?",
-      "nota": 2.5192002794938162e-05
+      "nota": 2.4079750801320188e-05
     },
     {
       "pergunta": "Quanto rende a poupança hoje?",
-      "nota": 1.76197227119701e-05
+      "nota": 1.7834079699241556e-05
     },
     {
       "pergunta": "Como funciona o seguro-desemprego?",
@@ -4710,7 +4710,7 @@
     },
     {
       "pergunta": "Qual o horário de funcionamento dos bancos?",
-      "nota": 0.0027810889296233654
+      "nota": 0.0020569751504808664
     },
     {
       "pergunta": "Como emitir a segunda via da conta de luz?",
@@ -4718,11 +4718,11 @@
     },
     {
       "pergunta": "Qual o valor do salário mínimo?",
-      "nota": 0.00276704179123044
+      "nota": 0.00298284157179296
     },
     {
       "pergunta": "Como montar um currículo?",
-      "nota": 0.001634986256249249
+      "nota": 0.0007891347631812096
     },
     {
       "pergunta": "Qual a diferença entre MEI e microempresa?",
@@ -4742,7 +4742,7 @@
     },
     {
       "pergunta": "Qual o melhor plano de celular?",
-      "nota": 1.8457054466125555e-05
+      "nota": 2.5726170861162245e-05
     },
     {
       "pergunta": "Como funciona a licença-maternidade?",
@@ -4750,7 +4750,7 @@
     },
     {
       "pergunta": "Qual a velocidade máxima na rodovia?",
-      "nota": 0.030988426879048347
+      "nota": 0.04042384773492813
     },
     {
       "pergunta": "Como limpar o filtro do ar-condicionado?",

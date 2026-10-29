@@ -58,6 +58,29 @@ def test_nenhum_trecho_real_passa_do_limite(trechos):
     assert len(maior["texto"]) <= ingest.MAX_CHARS + 200, (maior["norma"], maior["item"], len(maior["texto"]))
 
 
+def test_citacao_nao_vem_de_remissao_nem_do_anexo(trechos):
+    # 29/10: "...conforme o item\n12.4.7 e seus subitens, desta NR" abria um item falso, e o
+    # texto dos anexos da NR-12 saia como "item 12.4.3" do texto principal. Citar o item exato
+    # e a promessa do projeto: nenhum trecho comeca no meio de uma remissao, e trecho de anexo
+    # leva o rotulo do anexo.
+    import re
+    rem = [t for t in trechos if re.match(r"\s*(e seus subitens|desta NR|deste Anexo)", t["texto"])]
+    assert not rem, [(t["norma"], t["item"], t["pagina"]) for t in rem[:5]]
+    mistos = [t for t in trechos if t["item"][0].isdigit() and t["secao"].startswith("Anexo")]
+    assert not mistos, [(t["norma"], t["item"], t["secao"]) for t in mistos[:5]]
+
+
+def test_remissao_quebrada_nao_abre_item(tmp_path, monkeypatch):
+    # o mesmo defeito sem depender dos PDFs (roda no CI)
+    paginas = [(1, "12.4.6 As máquinas devem ter comando conforme o item\n12.4.7 e seus subitens, desta NR.\n"
+                   "12.4.8 O comando deve ser bem visível.\nANEXO X\n1.1 Este Anexo se aplica às prensas e similares.\n"
+                   "12.1 Nos casos deste Anexo a escada deve ter guarda-corpo.")]
+    monkeypatch.setattr(ingest, "_paginas", lambda pdf: paginas)
+    t = ingest.corta("x.pdf", {"prefixo_item": "12", "norma": "NR-12", "vigencia": ""})
+    assert [x.item for x in t] == ["12.4.6", "12.4.8", "Anexo X, item 1.1", "Anexo X, item 12.1"]
+    assert "12.4.7 e seus subitens" in t[0].texto
+
+
 def test_glossario_sem_numero_separa_por_termo():
     defs = ingest._definicoes("Barreira: dispositivo que impede o contato. Bloqueio: ação destinada a manter. "
                               "Observação: isto nao e termo. Talabarte: dispositivo de conexão.")

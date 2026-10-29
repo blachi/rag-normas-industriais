@@ -38,6 +38,11 @@ VERBO_NORMATIVO = re.compile(
     r"vedad[oa]s?|proibid[oa]s?|obrigatóri[oa]s?|aplica|aplicam|considera|consideram|estabelece|fica|ficam)\b",
     re.I,
 )
+# numero no inicio da linha que NAO e item: remissao quebrada no PDF
+# ("...conforme o item\n12.4.7 e seus subitens, desta NR..."). Sem isso, 16 trechos abriam um
+# item falso no meio da frase e a resposta citava o item errado (achado em 29/10).
+REMISSAO_ANTES = re.compile(r"\b(?:itens?|subitens?|alíneas?)\s*$", re.I)
+REMISSAO_DEPOIS = re.compile(r"(?:e seus subitens|desta NR|deste Anexo|do Anexo|da NR|e \d|,)", re.I)
 MAX_CHARS = 1500
 TITULO_MAX = 90   # item curto e todo em maiusculas = titulo de secao (ex.: "10.5 SEGURANCA EM ...")
 
@@ -129,6 +134,7 @@ def corta(documento: str, meta: dict) -> list[Trecho]:
     trechos: list[Trecho] = []
     item, pagina_item, buf = None, 1, []
     secao = ""
+    anexo = ""   # dentro de um anexo a numeracao e PROPRIA dele ("Anexo III, item 12.1" nao e o item 12.1 da NR)
 
     def fecha():
         nonlocal secao
@@ -142,7 +148,8 @@ def corta(documento: str, meta: dict) -> list[Trecho]:
             # reconhecido, e os titulos da NR-12/33 viravam ~50 trechos-lixo no indice.
             # Curto e SEM verbo de obrigacao = titulo; "As PETs emitidas devem ser rastreáveis." fica.
             curto_sem_verbo = len(corpo) <= 60 and not VERBO_NORMATIVO.search(corpo)
-            if item[0].isdigit() and len(corpo) <= TITULO_MAX and (corpo.upper() == corpo or curto_sem_verbo):
+            nucleo = item.split(", item ")[-1]     # "Anexo X, item 4.1" -> "4.1"
+            if nucleo[0].isdigit() and len(corpo) <= TITULO_MAX and (corpo.upper() == corpo or curto_sem_verbo):
                 secao = f"{item} {corpo}".strip()
                 return
             if item == "Glossário":
@@ -170,9 +177,21 @@ def corta(documento: str, meta: dict) -> list[Trecho]:
     for pagina, texto in _paginas(pdf):
         pos = 0
         for m in ITEM.finditer(texto):
+            sai_do_anexo = False
             if m.group(1):
                 numero = m.group(1)
-                if numero.split(".")[0] != prefixo:
+                if REMISSAO_ANTES.search(texto[max(0, m.start() - 30):m.start()]) or \
+                        REMISSAO_DEPOIS.match(texto, m.end()):
+                    continue
+                if anexo and numero.split(".")[0] == prefixo and numero.count(".") >= 2:
+                    # "ANEXO I" citado no meio do texto (o manual da NR-35 faz isso cedo) abria o
+                    # modo anexo e engolia 35.1.2, 35.3.2...: item de 3 niveis com o prefixo da NR
+                    # e o texto principal voltando. Os anexos numeram com 2 niveis ("12.1" do Anexo III).
+                    anexo, sai_do_anexo = "", True
+                elif anexo:
+                    # 107 trechos de anexo da NR-12 saiam como "item 12.4.3" do texto principal
+                    numero = f"{anexo}, item {numero}"
+                elif numero.split(".")[0] != prefixo:
                     continue
             else:   # "GLOSSÁRIO" -> "Glossário"; "ANEXO II" -> "Anexo II"; "REFERÊNCIAS" -> "Referências"
                 bruto = " ".join(m.group(2).split()).upper()
@@ -182,8 +201,11 @@ def corta(documento: str, meta: dict) -> list[Trecho]:
                     numero = "Anexo " + bruto.split()[1]
                 else:
                     numero = "Referências"
+                anexo = numero if numero.startswith("Anexo") else ""
             buf.append(texto[pos:m.start()])
             fecha()                       # fecha o item ANTERIOR com a secao dele
+            if sai_do_anexo:
+                secao = ""
             if m.group(2):
                 secao = numero
             item, pagina_item, buf = numero, pagina, []

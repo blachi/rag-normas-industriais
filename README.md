@@ -45,11 +45,15 @@ oficial ([`eval/perguntas.jsonl`](eval/perguntas.jsonl)). O certo é o item do t
 
 | Caminho | acerto em 1º | acerto nos 5 primeiros |
 |---|---|---|
-| Palavra-chave (BM25) | 15% | 48% |
-| Busca semântica (embeddings) | 40% | 75% |
-| Híbrida (BM25 + semântica, RRF) | 28% | 68% |
-| Semântica + vigência na data | 52% | 78% |
-| **Semântica → cross-encoder → vigência (em uso)** | **70%** | **82%** |
+| Palavra-chave (BM25) | 12% | 45% |
+| Busca semântica (embeddings) | 38% | 70% |
+| Híbrida (BM25 + semântica, RRF) | 22% | 65% |
+| Semântica + vigência na data | 50% | 75% |
+| **Semântica → cross-encoder → vigência (em uso)** | **68%** | **82%** |
+
+Com ±14 pontos de margem (IC 95% com 40 perguntas), diferenças de poucos pontos entre linhas
+não são distinguíveis. Os números caíram 2 a 6 pontos em 29/10 com a correção do item 10 abaixo:
+parte dos acertos anteriores vinha de trechos citados com o número de item errado.
 
 E a recusa, testada em 20 perguntas fora do assunto que **não** entraram na escolha do limiar:
 
@@ -68,7 +72,7 @@ Cada um destes tem teste em [`tests/test_rag.py`](tests/test_rag.py).
 
 1. **O índice vetorial devolvia o vizinho errado.** O padrão do ChromaDB (`search_ef=10`)
    divergia da busca exata no 1º resultado em 6 de 40 perguntas — e os números da avaliação
-   mudavam de uma rodada para outra. Com ~1.200 trechos não há por que aproximar.
+   mudavam de uma rodada para outra. Com ~1.650 trechos não há por que aproximar.
 2. **Duas redações da mesma norma.** A NR-10 nova (Portaria MTE nº 737/2026) só vale a partir de
    01/06/2027 — data tirada da própria portaria ("entra em vigor 1 ano após a publicação", DOU
    01/06/2026). Sem tratar vigência, o texto que ainda não vale vinha em 1º em 10 de 25 perguntas.
@@ -93,17 +97,24 @@ Cada um destes tem teste em [`tests/test_rag.py`](tests/test_rag.py).
    gabarito" escolheu 0,002 — a nota de uma pergunta cujo trecho certo nem estava entre os
    candidatos — e deixava passar 8 de 20 perguntas fora do assunto. Recusar o que sairia errado
    não é erro.
+10. **A citação vinha de uma remissão ou do anexo errado.** Uma frase quebrada no PDF
+    ("…conforme o item / 12.4.7 e seus subitens, desta NR") abria o item 12.4.7 no meio do
+    texto de outro item, e o texto dos anexos da NR-12 saía como "item 12.4.3" do texto
+    principal. Remissão não abre item, e o anexo leva o rótulo dele ("Anexo X, item 1.3"). Achado
+    por uma revisão externa do código, não pela avaliação: o gabarito tem só 5 perguntas da NR-12.
 
 ## Limitações (medidas, não escondidas)
 
-- **6 das 40 perguntas não têm o trecho certo nem entre os 40 primeiros candidatos** da busca
-  semântica (o cross-encoder só reordena o que recebe): "aliança e relógio" (10.2.9.3, "adornos
+- **6 das 40 perguntas não trazem o trecho certo nem entre os 5 primeiros, em nenhum dos
+  caminhos medidos** (o cross-encoder só reordena o que a busca entrega): "aliança e relógio" (10.2.9.3, "adornos
   pessoais"), terceirização (10.13.1), desconto do treinamento (12.16.3), corredor pintado
   (12.2.1), "entrar num tanque rapidinho" (33.5.5) e "cinto e linha de vida" (35.5.1). Teto da
   recuperação, não da ordenação — o próximo passo seria um modelo de embeddings maior.
 - Com o limiar 0,15 o sistema **recusa 6** das 40 perguntas do gabarito — **5** delas seriam
   respondidas errado; **1** seria respondida certo. Sobram respostas erradas: o 1º trecho
-  mostrado não é o item do gabarito em 7 das 34 respondidas.
+  mostrado não é o item do gabarito em 8 das 34 respondidas.
+- O limiar, os 15 candidatos e o reranqueador foram escolhidos olhando o mesmo gabarito; só a
+  recusa tem conjunto de teste separado. Os números de acerto são, portanto, otimistas.
 - **Lento nesta máquina:** 15 a 30 s por pergunta (cross-encoder de 568 M parâmetros em CPU de
   notebook, ~1 s por trecho; 15 candidatos). Abaixo de 15 candidatos a recuperação cai
   (30/32/34 acertos nos 5/10/15 primeiros; satura em 15).
@@ -156,7 +167,7 @@ python -m venv .venv
 # baixe os PDFs listados em data/catalogo.json do gov.br para data/raw/
 .venv\Scripts\python -m rag.ingest                    # corta os PDFs
 .venv\Scripts\python -c "from rag import busca; busca.indexa(busca.carrega_trechos())"
-.venv\Scripts\python -m pytest -q                     # 18 testes (3 usam os modelos)
+.venv\Scripts\python -m pytest -q                     # 20 testes (3 usam os modelos)
 .venv\Scripts\python -m eval.calibra                  # mede e escolhe o limiar (lento)
 .venv\Scripts\python -m eval.avaliar                  # gera eval/RESULTADO.md (lento)
 .venv\Scripts\python -m uvicorn api:app --port 8010   # tela em /, /perguntar, /painel, /normas
